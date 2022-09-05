@@ -1,0 +1,363 @@
+CREATE DATABASE IF NOT EXISTS vayvem;
+USE vayvem;
+CREATE TABLE passagem (
+    id_p int not null auto_increment PRIMARY KEY,
+    cidade_destino varchar(20) not null,
+    estado_destino varchar(20) not null,
+    pais_destino varchar(20) not null,
+    valor_destino float not null,
+    ida_destino date not null,
+    volta_destino date null,
+    nome_destino varchar(40) not null,
+    fk_cliente_cpf varchar(15) not null
+);
+
+CREATE TABLE pacote (
+    id_pct int not null auto_increment PRIMARY KEY,
+    ida_pct date not null,
+    desconto float not null,
+    volta_pct date not null,
+    nome_pct varchar(40) not null,
+    fk_passagem_id_p int not null,
+    fk_hospedagem_id_h int not null
+);
+
+CREATE TABLE hospedagem (
+    id_h int not null auto_increment PRIMARY KEY,
+    valor_h float not null,
+    pais_h varchar(20) not null,
+    estado_h varchar(20) not null,
+    cidade_h varchar(40) not null,
+    check_in date not null,
+    check_out date not null,
+    nome_hotel varchar(20) not null,
+    fk_cliente_cpf varchar(15) not null
+);
+
+CREATE TABLE cliente (
+    cpf varchar(15) not null PRIMARY KEY,
+    sobrenome varchar(40) not null,
+    rua varchar(40) not null,
+    bairro varchar(40) not null,
+    cep varchar(40) not null,
+    cidade_c varchar(40) not null,
+    estado_c varchar(40) not null,
+    email varchar(40) not null unique,
+    numero int not null,
+    nome varchar(40) not null,
+    fk_pacote_id_pct int not null
+);
+ 
+ALTER TABLE passagem ADD CONSTRAINT FK_passagem_2
+    FOREIGN KEY (fk_cliente_cpf)
+    REFERENCES cliente (cpf)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_2
+    FOREIGN KEY (fk_passagem_id_p)
+    REFERENCES passagem (id_p)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_3
+    FOREIGN KEY (fk_hospedagem_id_h)
+    REFERENCES hospedagem (id_h)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE hospedagem ADD CONSTRAINT FK_hospedagem_2
+    FOREIGN KEY (fk_cliente_cpf)
+    REFERENCES cliente (cpf)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE cliente ADD CONSTRAINT FK_cliente_2
+    FOREIGN KEY (fk_pacote_id_pct)
+    REFERENCES pacote (id_pct)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;CRETE DATABASE IF NOT EXISTS vayvem;
+USE vayvem;
+
+CREATE TABLE passagem (
+    id_p INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cidade_destino VARCHAR(20) NOT NULL,
+    estado_destino VARCHAR(20) NOT NULL,
+    pais_destino VARCHAR(20) NOT NULL,
+    valor_destino FLOAT NOT NULL,
+    ida_destino DATE NOT NULL,
+    volta_destino DATE NULL,
+    nome_destino VARCHAR(40) NOT NULL,
+    fk_cliente_cpf VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE pacote (
+    id_pct INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    ida_pct DATE NOT NULL,
+    desconto FLOAT NOT NULL,
+    volta_pct DATE NOT NULL,
+    nome_pct VARCHAR(40) NOT NULL,
+    fk_passagem_id_p INT NOT NULL,
+    fk_hospedagem_id_h INT NOT NULL,
+    fk_cliente_cpf VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE hospedagem (
+    id_h INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    valor_h FLOAT NOT NULL,
+    pais_h VARCHAR(20) NOT NULL,
+    estado_h VARCHAR(20) NOT NULL,
+    cidade_h VARCHAR(40) NOT NULL,
+    check_in DATE NOT NULL,
+    check_out DATE NOT NULL,
+    nome_hotel VARCHAR(20) NOT NULL,
+    fk_cliente_cpf VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE cliente (
+    cpf VARCHAR(15) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    sobrenome VARCHAR(40) NOT NULL,
+    rua VARCHAR(40) NOT NULL,
+    bairro VARCHAR(40) NOT NULL,
+    cep VARCHAR(40) NOT NULL,
+    cidade_c VARCHAR(40) NOT NULL,
+    estado_c VARCHAR(40) NOT NULL,
+    email VARCHAR(40) NOT NULL UNIQUE,
+    numero INT NOT NULL,
+    nome VARCHAR(40) NOT NULL
+);
+ 
+ALTER TABLE passagem ADD CONSTRAINT FK_passagem_2
+    FOREIGN KEY (fk_cliente_cpf)
+    REFERENCES cliente (cpf)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_2
+    FOREIGN KEY (fk_passagem_id_p)
+    REFERENCES passagem (id_p)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_3
+    FOREIGN KEY (fk_hospedagem_id_h)
+    REFERENCES hospedagem (id_h)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_4
+    FOREIGN KEY (fk_cliente_cpf)
+    REFERENCES cliente (cpf)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE hospedagem ADD CONSTRAINT FK_hospedagem_2
+    FOREIGN KEY (fk_cliente_cpf)
+    REFERENCES cliente (cpf)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;CREATE DABASE IF NOT EXISTS vayvem;
+USE vayvem;
+
+CREATE TABLE destino (
+    nome VARCHAR(50) NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(40),
+    data_ida DATE DEFAULT NULL,
+    data_volta DATE DEFAULT NULL,
+    valor_integral FLOAT NOT NULL,
+    fk_cliente_id INT NOT NULL AUTO_INCREMENT
+);
+
+CREATE TABLE pacote (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    valor_desconto FLOAT NOT NULL,
+    data_ida DATE NOT NULL,
+    data_volta DATE NOT NULL,
+    fk_destino_id INT NOT NULL AUTO_INCREMENT,
+    fk_hospedagem_id INT NOT NULL AUTO_INCREMENT,
+    fk_cliente_id INT NOT NULL AUTO_INCREMENT
+);
+
+CREATE TABLE hospedagem (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome_hotel VARCHAR(50) NOT NULL,
+    endereco VARCHAR(80) NOT NULL,
+    estado VARCHAR(20) NOT NULL,
+    valor_integral FLOAT NOT NULL,
+    check_in DATE DEFAULT NULL,
+    check_out DATE DEFAULT NULL,
+    numero_hotel VARCHAR(15) NOT NULL,
+    fk_cliente_id INT NOT NULL AUTO_INCREMENT
+);
+
+CREATE TABLE cliente (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cpf VARCHAR(15) NOT NULL UNIQUE,
+    nome_completo VARCHAR(80),
+    rua VARCHAR(50) NOT NULL,
+    bairro VARCHAR(50) NOT NULL,
+    cep VARCHAR(10),
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    numero VARCHAR(15) NOT NULL
+);
+ 
+ALTER TABLE destino ADD CONSTRAINT FK_destino_2
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_2
+    FOREIGN KEY (fk_destino_id)
+    REFERENCES destino (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_3
+    FOREIGN KEY (fk_hospedagem_id)
+    REFERENCES hospedagem (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_4
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE hospedagem ADD CONSTRAINT FK_hospedagem_2
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;CREATE DATABASE IF NOT EXISTS vayvem;
+USE vayvem;
+
+CREATE TABLE destino (
+    nome VARCHAR(50) NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(40),
+    data_ida DATE DEFAULT NULL,
+    data_volta DATE DEFAULT NULL,
+    valor_integral FLOAT NOT NULL,
+    fk_cliente_id INT NOT NULL
+);
+
+CREATE TABLE pacote (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50),
+    valor_desconto FLOAT NOT NULL,
+    data_ida DATE NOT NULL,
+    data_volta DATE NOT NULL,
+    fk_destino_id INT NOT NULL,
+    fk_hospedagem_id INT NOT NULL,
+    fk_cliente_id INT NOT NULL
+);
+
+CREATE TABLE hospedagem (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome_hotel VARCHAR(50) NOT NULL,
+    endereco VARCHAR(80) NOT NULL,
+    estado VARCHAR(20) NOT NULL,
+    valor_integral FLOAT NOT NULL,
+    check_in DATE DEFAULT NULL,
+    check_out DATE DEFAULT NULL,
+    numero_hotel VARCHAR(15) NOT NULL,
+    fk_cliente_id INT NOT NULL
+);
+
+CREATE TABLE cliente (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cpf VARCHAR(15) NOT NULL UNIQUE,
+    nome_completo VARCHAR(80),
+    rua VARCHAR(50) NOT NULL,
+    bairro VARCHAR(50) NOT NULL,
+    cep VARCHAR(10) NOT NULL,
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    numero VARCHAR(15) NOT NULL
+);
+ 
+ALTER TABLE destino ADD CONSTRAINT FK_destino_2
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_2
+    FOREIGN KEY (fk_destino_id)
+    REFERENCES destino (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_3
+    FOREIGN KEY (fk_hospedagem_id)
+    REFERENCES hospedagem (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE pacote ADD CONSTRAINT FK_pacote_4
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE hospedagem ADD CONSTRAINT FK_hospedagem_2
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE RESTRICT
+    ON UPDATE CASCADE;CREATE DATABASE IF NOT EXISTS vayvem;
+USE vayvem;
+
+CREATE TABLE destino (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(40),
+    data_ida DATE DEFAULT NULL,
+    data_volta DATE DEFAULT NULL,
+    valor_integral FLOAT NOT NULL,
+    fk_cliente_id INT NOT NULL
+);
+
+CREATE TABLE hospedagem (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome_hotel VARCHAR(50) NOT NULL,
+    endereco VARCHAR(80) NOT NULL,
+    estado VARCHAR(20) NOT NULL,
+    valor_integral FLOAT NOT NULL,
+    check_in DATE DEFAULT NULL,
+    check_out DATE DEFAULT NULL,
+    numero_hotel VARCHAR(15) NOT NULL,
+    fk_cliente_id INT NOT NULL
+);
+
+CREATE TABLE cliente (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    cpf VARCHAR(15) NOT NULL UNIQUE,
+    nome_completo VARCHAR(80),
+    rua VARCHAR(50) NOT NULL,
+    bairro VARCHAR(50) NOT NULL,
+    cep VARCHAR(10) NOT NULL,
+    cidade VARCHAR(50) NOT NULL,
+    estado VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    numero VARCHAR(15) NOT NULL
+);
+ 
+ALTER TABLE destino ADD CONSTRAINT FK_destino_2
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE;
+ 
+ALTER TABLE hospedagem ADD CONSTRAINT FK_hospedagem_2
+    FOREIGN KEY (fk_cliente_id)
+    REFERENCES cliente (id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE;
