@@ -1,32 +1,44 @@
 package database;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
-
+import java.sql.SQLException;
 
 public class Database {
 
-	private static final String USERNAME = "root";
 
-	private static final String PASSWORD = "19RubI97";
-
-	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/vayvem";
+	private static final String username = "root";
 	
-	public static Connection createConnectionToMySql() throws
-Exception{
-		Class.forName("com.mysql.cj.jdbc.Driver");
-		
-		Connection connection = DriverManager.getConnection(DATABASE_URL, USERNAME, PASSWORD);
-		return connection;
 
-	}
+	private static final String password = "13$21hj56%H";
 	
-	public static void main(String[] args) throws Exception{
-		Connection con = createConnectionToMySql();
-		
-		if (con != null) {
-			System.out.println("Conexão Obitida com Sucesso!" + con);
-			con.close();
-		}
-		
-	}
+
+    private static final String databaese_url = "jdbc:mysql://localhost:3306/Vayvem";
+   
+	
+    public static Connection createConnectionToMySql() {
+    	
+        try {
+        	
+            Class.forName("com.mysql.cj.jdbc.Driver");
+           
+            System.out.printf("[LOG] Database driver's found.\n");
+        } catch (ClassNotFoundException e) {
+        	
+        	System.out.printf("[ERROR] Database driver's not found. Message:\n%s .\n", e.getMessage());
+        }
+
+        try {
+        	
+            Connection connection = DriverManager.getConnection(databaese_url,username,password);
+            
+            System.out.println("[LOG] Connected to database.\n");
+            
+            return connection;
+        } catch (SQLException e) {
+        	
+            System.out.printf("[ERROR] Can't connect to database. Message:\n%s .\n", e.getMessage());
+            return null;
+        }
+    }
 }
