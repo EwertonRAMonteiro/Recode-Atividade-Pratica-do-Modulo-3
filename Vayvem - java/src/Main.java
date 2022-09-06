@@ -163,8 +163,8 @@ public class Main {
     public static int menu(Scanner scanner) {
         out.println(
                 "OPÇÕES: \n" +
-                		"Clientes só pode ser cadastrados vinculados a alguma Hospedagem,\n"+
-                		"ou Pacote, sempre inserir os mesmos com os dados do cliente.\n" +
+                		"Clientes só pode ser cadastrados vinculados a alguma Hospedagem\n"+
+                		"ou Destino, sempre inserir os mesmos com os dados do cliente.\n" +
                 		"------------------------------------------\n" +
                         "[1]  - Consultar Todas as Hospedagens\n" +
                         "[2]  - Inserir Hospedagem\n" +
@@ -177,7 +177,7 @@ public class Main {
                         "[9]  - Deletar Destino por ID\n" +
                         "[10] - Atualizar Destino por ID\n" + 
                         "[11] - Consultar Cliente por ID\n" +
-                        "[0]  - Encerrar Programa"
+                        "ESC para Encerrar"
         );
         return scanner.nextInt();
     }
