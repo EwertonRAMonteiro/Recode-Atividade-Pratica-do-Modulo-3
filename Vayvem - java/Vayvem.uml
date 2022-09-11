@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_nqAn8DHTEe272fLTor173g" name="Vayvem">
+    <eAnnotations xmi:id="_aSJZgDHUEe272fLTor173g" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_aSKAkDHUEe272fLTor173g" source="codegen">
+        <details xmi:id="_aSKAkTHUEe272fLTor173g" key="codegenDirectory" value="/Vayvem/src"/>
+        <details xmi:id="_eLbYMDHUEe272fLTor173g" key="AssociatedSourceCode" value="/Vayvem/src/Main.java;133321935/1;/Vayvem/src/dao/ClienteDAO.java;3881244172/1;/Vayvem/src/dao/DestinoDAO.java;4017368553/1;/Vayvem/src/dao/HospedagemDAO.java;3844913241/1;/Vayvem/src/database/Database.java;2326926813/1;/Vayvem/src/dto/ClienteDtoMetadata.java;3629234615/1;/Vayvem/src/dto/DestinoDtoMetadata.java;3273753116/1;/Vayvem/src/dto/HospedagemDtoMetadata.java;301258014/1;/Vayvem/src/model/Cliente.java;471955619/1;/Vayvem/src/model/Destino.java;1697504645/1;/Vayvem/src/model/Hospedagem.java;2569643199/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_aQnIcDHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_aQnvgDHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_aQnvgTHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_aQnvgjHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_aQnvgzHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_aQnvhDHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_aQoWkDHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_aQoWkTHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_aQo9oDHUEe272fLTor173g">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aQInUDHUEe272fLTor173g" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_aQJOYDHUEe272fLTor173g" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_aZPgADHUEe272fLTor173g" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZeJgTHUEe272fLTor173g" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZtaETHUEe272fLTor173g" name="ArrayList"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_aaCKMDHUEe272fLTor173g" name="Date"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aQM4wDHUEe272fLTor173g" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZW0wDHUEe272fLTor173g" name="System"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aah5cDHUEe272fLTor173g" name="Exception"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aQOG4DHUEe272fLTor173g" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZZRADHUEe272fLTor173g" name="DateFormat"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZafITHUEe272fLTor173g" name="ParseException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZcUUTHUEe272fLTor173g" name="SimpleDateFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_aQpksDHUEe272fLTor173g" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_aZmFUDHUEe272fLTor173g" name="Connection"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_aZohkDHUEe272fLTor173g" name="PreparedStatement"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZpvsTHUEe272fLTor173g" name="SQLException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_aZrk4THUEe272fLTor173g" name="Statement"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_aZySkDHUEe272fLTor173g" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aZ9RsDHUEe272fLTor173g" name="DriverManager"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aQKcgDHUEe272fLTor173g" name="model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTVsUDHUEe272fLTor173g" name="Cliente">
+        <ownedAttribute xmi:id="_abHvUDHUEe272fLTor173g" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abHvUTHUEe272fLTor173g" name="cpf">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abHvUjHUEe272fLTor173g" name="nomeCompleto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abIWYDHUEe272fLTor173g" name="rua">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abIWYTHUEe272fLTor173g" name="bairro">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abIWYjHUEe272fLTor173g" name="cep">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abI9cDHUEe272fLTor173g" name="cidade">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abI9cTHUEe272fLTor173g" name="estado">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abJkgDHUEe272fLTor173g" name="email">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abJkgTHUEe272fLTor173g" name="numero">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abossDHUEe272fLTor173g" name="toString" specification="_aTYvoDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abossTHUEe272fLTor173g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &#xD;
+         &quot;Cpf: &quot; + cpf + '\'' +&#xD;
+         &quot;, Nome Completo:  '&quot; + nomeCompleto + '\'' +&#xD;
+         &quot;, Rua: &quot; + rua + '\'' +&#xD;
+         &quot;, Bairro: '&quot; + bairro + '\'' +&#xD;
+         &quot;, CEP: &quot; + cep + '\'' +&#xD;
+         &quot;, Cidade: &quot; + cidade + '\'' +&#xD;
+         &quot;, Estado:&quot; + estado + '\'' +&#xD;
+         &quot;, Email:&quot; + email + '\'' +&#xD;
+         &quot;, Numero Telefone: &quot; + numero&#xD;
+         ;&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aTYvoDHUEe272fLTor173g" name="toString" method="_abossDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aTYvoTHUEe272fLTor173g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTcaADHUEe272fLTor173g" name="Destino">
+        <ownedAttribute xmi:id="_abKLkDHUEe272fLTor173g" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abKyoDHUEe272fLTor173g" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abKyoTHUEe272fLTor173g" name="cidade">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abLZsDHUEe272fLTor173g" name="estado">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abLZsTHUEe272fLTor173g" name="dataIda" type="_aaCKMDHUEe272fLTor173g" association="_abtlMDHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_abMAwDHUEe272fLTor173g" name="dataVolta" type="_aaCKMDHUEe272fLTor173g" association="_abuMQTHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_abMAwTHUEe272fLTor173g" name="valorIntegral">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abMn0DHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g" association="_ab9c0THUEe272fLTor173g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abossjHUEe272fLTor173g" name="getCliente" specification="_aTePMDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abpTwDHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>return cliente;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abpTwTHUEe272fLTor173g" name="setCliente" specification="_aaF0kDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abpTwjHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+          <language>java</language>
+          <body>this.cliente = cliente;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aTePMDHUEe272fLTor173g" name="getCliente" method="_abossjHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aaFNgDHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aaF0kDHUEe272fLTor173g" name="setCliente" method="_abpTwTHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aaGboDHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTk84DHUEe272fLTor173g" name="Hospedagem">
+        <ownedAttribute xmi:id="_abN18DHUEe272fLTor173g" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abOdADHUEe272fLTor173g" name="nomeHotel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abOdATHUEe272fLTor173g" name="endereço">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abPEEDHUEe272fLTor173g" name="estado">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abPEETHUEe272fLTor173g" name="valorIntegral">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abPrIDHUEe272fLTor173g" name="checkIn" type="_aaCKMDHUEe272fLTor173g" association="_abuzUTHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_abPrITHUEe272fLTor173g" name="checkOut" type="_aaCKMDHUEe272fLTor173g" association="_abvaYDHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_abQSMDHUEe272fLTor173g" name="numeroHotel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abQSMTHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g" association="_ab-q8THUEe272fLTor173g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abp60DHUEe272fLTor173g" name="getCliente" specification="_aTmyEDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abp60THUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>return cliente;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abqh4DHUEe272fLTor173g" name="setCliente" specification="_aaKGADHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abqh4THUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+          <language>java</language>
+          <body>this.cliente = cliente;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aTmyEDHUEe272fLTor173g" name="getCliente" method="_abp60DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aaJe8DHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aaKGADHUEe272fLTor173g" name="setCliente" method="_abqh4DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aaKGATHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_abtlMDHUEe272fLTor173g" name="" memberEnd="_abLZsTHUEe272fLTor173g _abuMQDHUEe272fLTor173g">
+        <ownedEnd xmi:id="_abuMQDHUEe272fLTor173g" name="" type="_aTcaADHUEe272fLTor173g" association="_abtlMDHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_abuMQTHUEe272fLTor173g" name="" memberEnd="_abMAwDHUEe272fLTor173g _abuzUDHUEe272fLTor173g">
+        <ownedEnd xmi:id="_abuzUDHUEe272fLTor173g" name="" type="_aTcaADHUEe272fLTor173g" association="_abuMQTHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_abuzUTHUEe272fLTor173g" name="" memberEnd="_abPrIDHUEe272fLTor173g _abuzUjHUEe272fLTor173g">
+        <ownedEnd xmi:id="_abuzUjHUEe272fLTor173g" name="" type="_aTk84DHUEe272fLTor173g" association="_abuzUTHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_abvaYDHUEe272fLTor173g" name="" memberEnd="_abPrITHUEe272fLTor173g _abvaYTHUEe272fLTor173g">
+        <ownedEnd xmi:id="_abvaYTHUEe272fLTor173g" name="" type="_aTk84DHUEe272fLTor173g" association="_abvaYDHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab9c0THUEe272fLTor173g" name="" memberEnd="_ab9c0jHUEe272fLTor173g _abMn0DHUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab9c0jHUEe272fLTor173g" name="" type="_aTcaADHUEe272fLTor173g" association="_ab9c0THUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab-q8THUEe272fLTor173g" name="" memberEnd="_ab-q8jHUEe272fLTor173g _abQSMTHUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab-q8jHUEe272fLTor173g" name="" type="_aTk84DHUEe272fLTor173g" association="_ab-q8THUEe272fLTor173g"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aQMRsDHUEe272fLTor173g" name="dao">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aShM8DHUEe272fLTor173g" name="ClienteDAO">
+        <generalization xmi:id="_-6xt0DHVEe272fLTor173g" general="_aTVsUDHUEe272fLTor173g"/>
+        <generalization xmi:id="_ZFGFoDHWEe272fLTor173g" general="_aTF0sDHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_aayYIDHUEe272fLTor173g" name="sql" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aazmQDHUEe272fLTor173g" name="connection" visibility="private" isLeaf="true" type="_aZmFUDHUEe272fLTor173g" isReadOnly="true" association="_ab2vIDHUEe272fLTor173g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abimEDHUEe272fLTor173g" name="ClienteDAO" specification="_aak8wDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abimETHUEe272fLTor173g" name="connection" type="_aZmFUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_abimEjHUEe272fLTor173g" type="_aShM8DHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>this.connection = connection;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abimEzHUEe272fLTor173g" name="create" specification="_aZv2UDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abimFDHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_abimFTHUEe272fLTor173g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;INSERT INTO %s VALUES (null, ?, ?, ?, ?, ?, ?, ?, ?, ?)&quot;;&#xD;
+     sql = String.format(sql, ClienteDtoMetadata.tableName);&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);&#xD;
+         preparedStatement.setString(1, cliente.getCpf());&#xD;
+         preparedStatement.setString(2, cliente.getNomeCompleto());&#xD;
+         preparedStatement.setString(3, cliente.getRua());&#xD;
+         preparedStatement.setString(4, cliente.getBairro());&#xD;
+         preparedStatement.setString(5, cliente.getCep());&#xD;
+         preparedStatement.setString(6, cliente.getCidade());&#xD;
+         preparedStatement.setString(7, cliente.getEstado());&#xD;
+         preparedStatement.setString(8, cliente.getEmail());&#xD;
+         preparedStatement.setString(9, cliente.getNumero());&#xD;
+&#xD;
+         preparedStatement.executeUpdate();&#xD;
+         var result = preparedStatement.getGeneratedKeys();&#xD;
+&#xD;
+         long clienteId = result.next() ? result.getLong(1) : -1L;&#xD;
+         System.out.println(&quot;[LOG] Cliente inserido com sucesso.&quot;);&#xD;
+         return  clienteId;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Cliente n�o foi inserido. Message:\n%s&quot;, e.getMessage());&#xD;
+         return -1L;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abjNIDHUEe272fLTor173g" name="findByPk" specification="_aSk3UDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abjNITHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_abjNIjHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>sql = &quot;SELECT * FROM %s WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             ClienteDtoMetadata.tableName,&#xD;
+             ClienteDtoMetadata.id&#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setLong(1, clienteId);&#xD;
+         var result = preparedStatement.executeQuery();&#xD;
+         System.out.println(&quot;[LOG] Query cliente realizada com sucesso&quot;);&#xD;
+&#xD;
+         Cliente cliente = new Cliente();&#xD;
+&#xD;
+         if (result.next()) {&#xD;
+             cliente.setId(result.getLong(ClienteDtoMetadata.id));&#xD;
+             cliente.setCpf(result.getString(ClienteDtoMetadata.cpf));&#xD;
+             cliente.setNomeCompleto(result.getString(ClienteDtoMetadata.nomeCompleto));&#xD;
+             cliente.setRua(result.getString(ClienteDtoMetadata.rua));&#xD;
+             cliente.setBairro(result.getString(ClienteDtoMetadata.bairro));&#xD;
+             cliente.setCep(result.getString(ClienteDtoMetadata.cep));&#xD;
+             cliente.setCidade(result.getString(ClienteDtoMetadata.cidade));&#xD;
+             cliente.setEstado(result.getString(ClienteDtoMetadata.estado));&#xD;
+             cliente.setEmail(result.getString(ClienteDtoMetadata.email));&#xD;
+             cliente.setNumero(result.getString(ClienteDtoMetadata.numero));&#xD;
+         }&#xD;
+         return cliente;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Query cliente falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abjNIzHUEe272fLTor173g" name="findByPk2" specification="_aSmsgDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abjNJDHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_abjNJTHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_abjNJjHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;SELECT * FROM %s WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             ClienteDtoMetadata.tableName,&#xD;
+             ClienteDtoMetadata.id&#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+     	PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setLong(1, clienteId);&#xD;
+         var result = preparedStatement.executeQuery();&#xD;
+         List&lt;Cliente> clientes = new ArrayList&lt;>();&#xD;
+&#xD;
+         while (result.next()) {&#xD;
+         	Cliente cliente = new Cliente();&#xD;
+             cliente.setId(result.getLong(ClienteDtoMetadata.id));&#xD;
+             cliente.setCpf(result.getString(ClienteDtoMetadata.cpf));&#xD;
+             cliente.setNomeCompleto(result.getString(ClienteDtoMetadata.nomeCompleto));&#xD;
+             cliente.setRua(result.getString(ClienteDtoMetadata.rua));&#xD;
+             cliente.setBairro(result.getString(ClienteDtoMetadata.bairro));&#xD;
+             cliente.setCep(result.getString(ClienteDtoMetadata.cep));&#xD;
+             cliente.setCidade(result.getString(ClienteDtoMetadata.cidade));&#xD;
+             cliente.setEstado(result.getString(ClienteDtoMetadata.estado));&#xD;
+             cliente.setEmail(result.getString(ClienteDtoMetadata.email));&#xD;
+             cliente.setNumero(result.getString(ClienteDtoMetadata.numero));&#xD;
+             clientes.add(cliente);&#xD;
+         }&#xD;
+         return clientes;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Query cliente falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aSk3UDHUEe272fLTor173g" name="findByPk" method="_abjNIDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aSk3UTHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aZxEcDHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aSmsgDHUEe272fLTor173g" name="findByPk2" method="_abjNIzHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aSmsgTHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aSmsgjHUEe272fLTor173g" type="_aTVsUDHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aSnTkDHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZv2UDHUEe272fLTor173g" name="create" method="_abimEzHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aZv2UTHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aZwdYDHUEe272fLTor173g" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aak8wDHUEe272fLTor173g" name="ClienteDAO" method="_abimEDHUEe272fLTor173g">
+          <eAnnotations xmi:id="_aalj0DHUEe272fLTor173g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aalj0THUEe272fLTor173g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aak8wTHUEe272fLTor173g" name="connection" type="_aZmFUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aalj0jHUEe272fLTor173g" type="_aShM8DHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aSuBQDHUEe272fLTor173g" name="DestinoDAO">
+        <generalization xmi:id="__gEzQDHVEe272fLTor173g" general="_aTcaADHUEe272fLTor173g"/>
+        <generalization xmi:id="_Yc-8wDHWEe272fLTor173g" general="_aTF0sDHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_aa00YDHUEe272fLTor173g" name="sql" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa2CgDHUEe272fLTor173g" name="connection" visibility="private" isLeaf="true" type="_aZmFUDHUEe272fLTor173g" isReadOnly="true" association="_ab39QTHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_aa2pkTHUEe272fLTor173g" name="clienteDao" visibility="private" isLeaf="true" type="_aShM8DHUEe272fLTor173g" isReadOnly="true" association="_ab5LYTHUEe272fLTor173g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abj0MDHUEe272fLTor173g" name="DestinoDAO" specification="_aamx8DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abj0MTHUEe272fLTor173g" name="connection" type="_aZmFUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_abj0MjHUEe272fLTor173g" name="clienteDao" type="_aShM8DHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_abj0MzHUEe272fLTor173g" type="_aSuBQDHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>this.connection = connection;&#xD;
+     this.clienteDao = clienteDao;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abkbQDHUEe272fLTor173g" name="create" specification="_aZ1V4DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abkbQTHUEe272fLTor173g" name="destino" type="_aTcaADHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_abkbQjHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;INSERT INTO %s VALUES (null, ?, ?, ?, ?, ?, ?, ?)&quot;;&#xD;
+     sql = String.format(sql, DestinoDtoMetadata.tableName);&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setString(1, destino.getNome());&#xD;
+         preparedStatement.setString(2, destino.getCidade());&#xD;
+         preparedStatement.setString(3, destino.getEstado());&#xD;
+         preparedStatement.setDate(4, new Date(destino.getDataIda().getTime()));&#xD;
+         preparedStatement.setDate(5, new Date(destino.getDataVolta().getTime()));&#xD;
+         preparedStatement.setFloat(6, destino.getValorIntegral());&#xD;
+         preparedStatement.setLong(7, clienteId);&#xD;
+&#xD;
+         int result = preparedStatement.executeUpdate();&#xD;
+         System.out.printf(&quot;[LOG] Destino inserida com sucesso. Result: %s&quot;, result);&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Destino n�o foi inserido. Message:\n%s&quot;, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abkbQzHUEe272fLTor173g" name="findAll" specification="_aSxEkDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abkbRDHUEe272fLTor173g" type="_aTcaADHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_abkbRTHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;SELECT * FROM %s&quot;;&#xD;
+     sql = String.format(sql, DestinoDtoMetadata.tableName);&#xD;
+&#xD;
+     try {&#xD;
+         Statement statement = this.connection.createStatement();&#xD;
+         var result = statement.executeQuery(sql);&#xD;
+         List&lt;Destino> destinos = new ArrayList&lt;>();&#xD;
+&#xD;
+         while (result.next()) {&#xD;
+             Destino destino = new Destino();&#xD;
+             destino.setId(result.getLong(DestinoDtoMetadata.id));&#xD;
+             destino.setNome(result.getString(DestinoDtoMetadata.nome));&#xD;
+             destino.setCidade(result.getString(DestinoDtoMetadata.cidade));&#xD;
+             destino.setEstado(result.getString(DestinoDtoMetadata.estado));&#xD;
+             destino.setDataIda(result.getDate(DestinoDtoMetadata.dataIda));&#xD;
+             destino.setDataVolta(result.getDate(DestinoDtoMetadata.dataVolta));&#xD;
+             destino.setValorIntegral(result.getFloat(DestinoDtoMetadata.valorIntegral));&#xD;
+             destino.setCliente(clienteDao.findByPk(result.getLong(DestinoDtoMetadata.cliente)));&#xD;
+             destinos.add(destino);&#xD;
+         }&#xD;
+         System.out.println(&quot;[LOG] Busca por destino realizada com sucesso.&quot;);&#xD;
+         return destinos;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] busca por destino falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ablCUDHUEe272fLTor173g" name="findByPk" specification="_aSySsDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_ablCUTHUEe272fLTor173g" name="destinoId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ablCUjHUEe272fLTor173g" type="_aTcaADHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ablCUzHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;SELECT * FROM %s WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             DestinoDtoMetadata.tableName,&#xD;
+             DestinoDtoMetadata.id&#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setLong(1, destinoId);&#xD;
+         var result = preparedStatement.executeQuery();&#xD;
+         List&lt;Destino> destinos = new ArrayList&lt;>();&#xD;
+&#xD;
+         while (result.next()) {&#xD;
+         	Destino destino = new Destino();&#xD;
+             destino.setId(result.getLong(DestinoDtoMetadata.id));&#xD;
+             destino.setNome(result.getString(DestinoDtoMetadata.nome));&#xD;
+             destino.setCidade(result.getString(DestinoDtoMetadata.cidade));&#xD;
+             destino.setEstado(result.getString(DestinoDtoMetadata.estado));&#xD;
+             destino.setDataIda(result.getDate(DestinoDtoMetadata.dataIda));&#xD;
+             destino.setDataVolta(result.getDate(DestinoDtoMetadata.dataVolta));&#xD;
+             destino.setValorIntegral(result.getFloat(DestinoDtoMetadata.valorIntegral));&#xD;
+             destinos.add(destino);&#xD;
+         }&#xD;
+&#xD;
+         System.out.println(&quot;[LOG] Query PK no banco de dados.&quot;);&#xD;
+         return destinos;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Cant query one Client in database. Message:\n%s&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ablCVDHUEe272fLTor173g" name="delete" specification="_aS0H4DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_ablCVTHUEe272fLTor173g" name="destinoId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;DELETE FROM %s WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             DestinoDtoMetadata.tableName,&#xD;
+             DestinoDtoMetadata.id&#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setLong(1, destinoId);&#xD;
+         preparedStatement.executeUpdate();&#xD;
+         System.out.println(&quot;[LOG] destino excluida com sucesso.&quot;);&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] exclus�o destino falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ablpYDHUEe272fLTor173g" name="update" specification="_aZ2kADHUEe272fLTor173g">
+          <ownedParameter xmi:id="_ablpYTHUEe272fLTor173g" name="destino" type="_aTcaADHUEe272fLTor173g"/>
+          <language>java</language>
+          <body>sql = &quot;UPDATE %s &quot; +&#xD;
+             &quot;SET %s = ?, %s = ? %s = ?, %s = ? %s = ?, %s = ? %s = ?&quot; +&#xD;
+             &quot;WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             DestinoDtoMetadata.tableName,&#xD;
+             DestinoDtoMetadata.nome,&#xD;
+             DestinoDtoMetadata.cidade,&#xD;
+             DestinoDtoMetadata.estado,&#xD;
+             DestinoDtoMetadata.dataIda,&#xD;
+             DestinoDtoMetadata.dataVolta,&#xD;
+             DestinoDtoMetadata.valorIntegral,&#xD;
+             DestinoDtoMetadata.cliente,&#xD;
+             DestinoDtoMetadata.id&#xD;
+             &#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setString(1, destino.getNome());&#xD;
+         preparedStatement.setString(2, destino.getCidade());&#xD;
+         preparedStatement.setString(3, destino.getEstado());&#xD;
+         preparedStatement.setDate(4, new Date(destino.getDataIda().getTime()));&#xD;
+         preparedStatement.setDate(5, new Date(destino.getDataVolta().getTime()));&#xD;
+         preparedStatement.setFloat(6, destino.getValorIntegral());&#xD;
+         preparedStatement.setLong(7, destino.getId());&#xD;
+         preparedStatement.executeUpdate();&#xD;
+         System.out.println(&quot;[LOG] Atualiza��o realizada com sucesso.&quot;);&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Atualiza��o falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aSxEkDHUEe272fLTor173g" name="findAll" method="_abkbQzHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aSxroDHUEe272fLTor173g" type="_aTcaADHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aSxroTHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aSySsDHUEe272fLTor173g" name="findByPk" method="_ablCUDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aSy5wDHUEe272fLTor173g" name="destinoId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aSzg0DHUEe272fLTor173g" type="_aTcaADHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aSzg0THUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aS0H4DHUEe272fLTor173g" name="delete" method="_ablCVDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aS0u8DHUEe272fLTor173g" name="destinoId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZ1V4DHUEe272fLTor173g" name="create" method="_abkbQDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aZ188DHUEe272fLTor173g" name="destino" type="_aTcaADHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aZ188THUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZ2kADHUEe272fLTor173g" name="update" method="_ablpYDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aZ2kATHUEe272fLTor173g" name="destino" type="_aTcaADHUEe272fLTor173g"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aamx8DHUEe272fLTor173g" name="DestinoDAO" method="_abj0MDHUEe272fLTor173g">
+          <eAnnotations xmi:id="_aamx8zHUEe272fLTor173g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aanZADHUEe272fLTor173g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aamx8THUEe272fLTor173g" name="connection" type="_aZmFUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aamx8jHUEe272fLTor173g" name="clienteDao" type="_aShM8DHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aanZATHUEe272fLTor173g" type="_aSuBQDHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aS6OgDHUEe272fLTor173g" name="HospedagemDAO">
+        <generalization xmi:id="__RlEQDHVEe272fLTor173g" general="_aTk84DHUEe272fLTor173g"/>
+        <generalization xmi:id="_ZZuR0DHWEe272fLTor173g" general="_aTF0sDHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_aa4ewDHUEe272fLTor173g" name="sql" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa5F0THUEe272fLTor173g" name="connection" visibility="private" isLeaf="true" type="_aZmFUDHUEe272fLTor173g" isReadOnly="true" association="_ab7AkTHUEe272fLTor173g"/>
+        <ownedAttribute xmi:id="_aa5s4THUEe272fLTor173g" name="clienteDao" visibility="private" isLeaf="true" type="_aShM8DHUEe272fLTor173g" isReadOnly="true" association="_ab8OsTHUEe272fLTor173g"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ablpYjHUEe272fLTor173g" name="HospedagemDAO" specification="_aaonIDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_ablpYzHUEe272fLTor173g" name="connection" type="_aZmFUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_ablpZDHUEe272fLTor173g" name="clienteDao" type="_aShM8DHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_ablpZTHUEe272fLTor173g" type="_aS6OgDHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>this.connection = connection;&#xD;
+     this.clienteDao = clienteDao;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abmQcDHUEe272fLTor173g" name="create" specification="_aZ6OYDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abmQcTHUEe272fLTor173g" name="hospedagem" type="_aTk84DHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_abmQcjHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;INSERT INTO %s VALUES (null, ?, ?, ?, ?, ?, ?, ?, ?)&quot;;&#xD;
+     sql = String.format(sql, HospedagemDtoMetadata.tableName);&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setString(1, hospedagem.getNomeHotel());&#xD;
+         preparedStatement.setString(2, hospedagem.getEndereço());&#xD;
+         preparedStatement.setString(3, hospedagem.getEstado());&#xD;
+         preparedStatement.setFloat(4, hospedagem.getValorIntegral());&#xD;
+         preparedStatement.setDate(5, new Date(hospedagem.getCheckIn().getTime()));&#xD;
+         preparedStatement.setDate(6, new Date(hospedagem.getCheckOut().getTime()));&#xD;
+         preparedStatement.setString(7, hospedagem.getNumeroHotel());&#xD;
+         preparedStatement.setLong(8, clienteId);&#xD;
+&#xD;
+         int result = preparedStatement.executeUpdate();&#xD;
+         System.out.printf(&quot;[LOG] Hospedagem inserida com sucesso. Result: %s&quot;, result);&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Hospedagem n�o foi inserido. Message:\n%s&quot;, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abmQczHUEe272fLTor173g" name="findAll" specification="_aS9R0DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abmQdDHUEe272fLTor173g" type="_aTk84DHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_abmQdTHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;SELECT * FROM %s&quot;;&#xD;
+     sql = String.format(sql, HospedagemDtoMetadata.tableName);&#xD;
+&#xD;
+     try {&#xD;
+         Statement statement = this.connection.createStatement();&#xD;
+         var result = statement.executeQuery(sql);&#xD;
+         List&lt;Hospedagem> hospedagems = new ArrayList&lt;>();&#xD;
+&#xD;
+         while (result.next()) {&#xD;
+             Hospedagem hospedagem = new Hospedagem();&#xD;
+             hospedagem.setId(result.getLong(HospedagemDtoMetadata.id));&#xD;
+             hospedagem.setNomeHotel(result.getString(HospedagemDtoMetadata.nomeHotel));&#xD;
+             hospedagem.setEndereço(result.getString(HospedagemDtoMetadata.endereco));&#xD;
+             hospedagem.setEstado(result.getString(HospedagemDtoMetadata.estado));&#xD;
+             hospedagem.setValorIntegral(result.getFloat(HospedagemDtoMetadata.valorIntegral));&#xD;
+             hospedagem.setCheckIn(result.getDate(HospedagemDtoMetadata.checkIn));&#xD;
+             hospedagem.setCheckOut(result.getDate(HospedagemDtoMetadata.checkOut));&#xD;
+             hospedagem.setNumeroHotel(result.getString(HospedagemDtoMetadata.numeroHotel));&#xD;
+             hospedagem.setCliente(clienteDao.findByPk(result.getLong(HospedagemDtoMetadata.cliente)));&#xD;
+             hospedagems.add(hospedagem);&#xD;
+         }&#xD;
+         System.out.println(&quot;[LOG] Busca por hospedagem realizada com sucesso.&quot;);&#xD;
+         return hospedagems;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] busca por hospedagem falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abm3gDHUEe272fLTor173g" name="findByPk" specification="_aS_HADHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abm3gTHUEe272fLTor173g" name="hospedagemId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_abm3gjHUEe272fLTor173g" type="_aTk84DHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_abm3gzHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;SELECT * FROM %s WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             HospedagemDtoMetadata.tableName,&#xD;
+             HospedagemDtoMetadata.id&#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setLong(1, hospedagemId);&#xD;
+         var result = preparedStatement.executeQuery();&#xD;
+         List&lt;Hospedagem> hospedagems = new ArrayList&lt;>();&#xD;
+&#xD;
+         while (result.next()) {&#xD;
+         	Hospedagem hospedagem = new Hospedagem();&#xD;
+             hospedagem.setId(result.getLong(HospedagemDtoMetadata.id));&#xD;
+             hospedagem.setNomeHotel(result.getString(HospedagemDtoMetadata.nomeHotel));&#xD;
+             hospedagem.setEndereço(result.getString(HospedagemDtoMetadata.endereco));&#xD;
+             hospedagem.setEstado(result.getString(HospedagemDtoMetadata.estado));&#xD;
+             hospedagem.setValorIntegral(result.getFloat(HospedagemDtoMetadata.valorIntegral));&#xD;
+             hospedagem.setCheckIn(result.getDate(HospedagemDtoMetadata.checkIn));&#xD;
+             hospedagem.setCheckOut(result.getDate(HospedagemDtoMetadata.checkOut));&#xD;
+             hospedagem.setNumeroHotel(result.getString(HospedagemDtoMetadata.numeroHotel));&#xD;
+             hospedagems.add(hospedagem);&#xD;
+         }&#xD;
+&#xD;
+         System.out.println(&quot;[LOG] Query PK no banco de dados.&quot;);&#xD;
+         return hospedagems;&#xD;
+&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Cant query one Client in database. Message:\n%s&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abm3hDHUEe272fLTor173g" name="delete" specification="_aTAVIDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abm3hTHUEe272fLTor173g" name="hospedagemId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>sql = &quot;DELETE FROM %s WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             HospedagemDtoMetadata.tableName,&#xD;
+             HospedagemDtoMetadata.id&#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setLong(1, hospedagemId);&#xD;
+         preparedStatement.executeUpdate();&#xD;
+         System.out.println(&quot;[LOG] Hospedagem excluida com sucesso.&quot;);&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] exclus�o hospedagem falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abnekDHUEe272fLTor173g" name="update" specification="_aZ7cgDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_abnekTHUEe272fLTor173g" name="hospedagem" type="_aTk84DHUEe272fLTor173g"/>
+          <language>java</language>
+          <body>sql = &quot;UPDATE %s &quot; +&#xD;
+             &quot;SET %s = ?, %s = ? %s = ?, %s = ? %s = ?, %s = ? %s = ?, %s = ? &quot; +&#xD;
+             &quot;WHERE %s = ?&quot;;&#xD;
+     sql = String.format(&#xD;
+             sql,&#xD;
+             HospedagemDtoMetadata.tableName,&#xD;
+             HospedagemDtoMetadata.nomeHotel,&#xD;
+             HospedagemDtoMetadata.endereco,&#xD;
+             HospedagemDtoMetadata.estado,&#xD;
+             HospedagemDtoMetadata.valorIntegral,&#xD;
+             HospedagemDtoMetadata.checkIn,&#xD;
+             HospedagemDtoMetadata.checkOut,&#xD;
+             HospedagemDtoMetadata.numeroHotel,&#xD;
+             HospedagemDtoMetadata.cliente,&#xD;
+             HospedagemDtoMetadata.id&#xD;
+             &#xD;
+     );&#xD;
+&#xD;
+     try {&#xD;
+         PreparedStatement preparedStatement = this.connection.prepareStatement(sql);&#xD;
+         preparedStatement.setString(1, hospedagem.getNomeHotel());&#xD;
+         preparedStatement.setString(2, hospedagem.getEndereço());&#xD;
+         preparedStatement.setString(3, hospedagem.getEstado());&#xD;
+         preparedStatement.setFloat(4, hospedagem.getValorIntegral());&#xD;
+         preparedStatement.setDate(5, new Date(hospedagem.getCheckIn().getTime()));&#xD;
+         preparedStatement.setDate(7, new Date(hospedagem.getCheckOut().getTime()));&#xD;
+         preparedStatement.setString(8, hospedagem.getNumeroHotel());&#xD;
+         preparedStatement.setLong(9, hospedagem.getId());&#xD;
+         preparedStatement.executeUpdate();&#xD;
+         System.out.println(&quot;[LOG] Atualiza��o realizada com sucesso.&quot;);&#xD;
+     } catch (SQLException e) {&#xD;
+         System.out.printf(&quot;[ERROR] Atualiza��o falhou. Message:\n%s&quot;, e.getMessage());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aS9R0DHUEe272fLTor173g" name="findAll" method="_abmQczHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aS944DHUEe272fLTor173g" type="_aTk84DHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aS944THUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aS_HADHUEe272fLTor173g" name="findByPk" method="_abm3gDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aS_HATHUEe272fLTor173g" name="hospedagemId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aS_uEDHUEe272fLTor173g" type="_aTk84DHUEe272fLTor173g" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aS_uETHUEe272fLTor173g" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aTAVIDHUEe272fLTor173g" name="delete" method="_abm3hDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aTAVITHUEe272fLTor173g" name="hospedagemId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZ6OYDHUEe272fLTor173g" name="create" method="_abmQcDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aZ61cDHUEe272fLTor173g" name="hospedagem" type="_aTk84DHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aZ61cTHUEe272fLTor173g" name="clienteId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aZ7cgDHUEe272fLTor173g" name="update" method="_abnekDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aZ7cgTHUEe272fLTor173g" name="hospedagem" type="_aTk84DHUEe272fLTor173g"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aaonIDHUEe272fLTor173g" name="HospedagemDAO" method="_ablpYjHUEe272fLTor173g">
+          <eAnnotations xmi:id="_aaonIzHUEe272fLTor173g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aapOMDHUEe272fLTor173g" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aaonITHUEe272fLTor173g" name="connection" type="_aZmFUDHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aaonIjHUEe272fLTor173g" name="clienteDao" type="_aShM8DHUEe272fLTor173g"/>
+          <ownedParameter xmi:id="_aapOMTHUEe272fLTor173g" type="_aS6OgDHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab2vIDHUEe272fLTor173g" name="" memberEnd="_ab2vITHUEe272fLTor173g _aazmQDHUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab2vITHUEe272fLTor173g" name="" type="_aShM8DHUEe272fLTor173g" association="_ab2vIDHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab39QTHUEe272fLTor173g" name="" memberEnd="_ab39QjHUEe272fLTor173g _aa2CgDHUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab39QjHUEe272fLTor173g" name="" type="_aSuBQDHUEe272fLTor173g" association="_ab39QTHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab5LYTHUEe272fLTor173g" name="" memberEnd="_ab5LYjHUEe272fLTor173g _aa2pkTHUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab5LYjHUEe272fLTor173g" name="" type="_aSuBQDHUEe272fLTor173g" association="_ab5LYTHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab7AkTHUEe272fLTor173g" name="" memberEnd="_ab7AkjHUEe272fLTor173g _aa5F0THUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab7AkjHUEe272fLTor173g" name="" type="_aS6OgDHUEe272fLTor173g" association="_ab7AkTHUEe272fLTor173g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ab8OsTHUEe272fLTor173g" name="" memberEnd="_ab8OsjHUEe272fLTor173g _aa5s4THUEe272fLTor173g">
+        <ownedEnd xmi:id="_ab8OsjHUEe272fLTor173g" name="" type="_aS6OgDHUEe272fLTor173g" association="_ab8OsTHUEe272fLTor173g"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aQRxQDHUEe272fLTor173g" name="database">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTF0sDHUEe272fLTor173g" name="Database">
+        <ownedAttribute xmi:id="_aa67ADHUEe272fLTor173g" name="username" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa7iEDHUEe272fLTor173g" value="&quot;root&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa7iETHUEe272fLTor173g" name="password" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa7iEjHUEe272fLTor173g" value="&quot;19RubI97&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa8JIDHUEe272fLTor173g" name="databaese_url" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa8JITHUEe272fLTor173g" value="&quot;jdbc:mysql://localhost:3306/Vayvem&quot;"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aboFoDHUEe272fLTor173g" name="createConnectionToMySql" specification="_aTHC0DHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aboFoTHUEe272fLTor173g" type="_aZmFUDHUEe272fLTor173g" direction="return"/>
+          <language>java</language>
+          <body>try {&#xD;
+     	&#xD;
+         Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);&#xD;
+        &#xD;
+         System.out.printf(&quot;[LOG] Database driver's found.\n&quot;);&#xD;
+     } catch (ClassNotFoundException e) {&#xD;
+     	&#xD;
+     	System.out.printf(&quot;[ERROR] Database driver's not found. Message:\n%s .\n&quot;, e.getMessage());&#xD;
+     }&#xD;
+&#xD;
+     try {&#xD;
+     	&#xD;
+         Connection connection = DriverManager.getConnection(databaese_url,username,password);&#xD;
+         &#xD;
+         System.out.println(&quot;[LOG] Connected to database.\n&quot;);&#xD;
+         &#xD;
+         return connection;&#xD;
+     } catch (SQLException e) {&#xD;
+     	&#xD;
+         System.out.printf(&quot;[ERROR] Can't connect to database. Message:\n%s .\n&quot;, e.getMessage());&#xD;
+         return null;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aTHC0DHUEe272fLTor173g" name="createConnectionToMySql" isStatic="true" method="_aboFoDHUEe272fLTor173g">
+          <ownedParameter xmi:id="_aap1QDHUEe272fLTor173g" type="_aZmFUDHUEe272fLTor173g" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aQqLwDHUEe272fLTor173g" name="dto">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTJfEDHUEe272fLTor173g" name="ClienteDtoMetadata">
+        <ownedAttribute xmi:id="_aa8JIjHUEe272fLTor173g" name="tableName" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa8wMDHUEe272fLTor173g" value="&quot;cliente&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa8wMTHUEe272fLTor173g" name="id" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa8wMjHUEe272fLTor173g" value="&quot;id&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa8wMzHUEe272fLTor173g" name="cpf" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa9XQDHUEe272fLTor173g" value="&quot;cpf&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa9XQTHUEe272fLTor173g" name="nomeCompleto" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa9XQjHUEe272fLTor173g" value="&quot;nome_completo&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa9XQzHUEe272fLTor173g" name="rua" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa9-UDHUEe272fLTor173g" value="&quot;rua&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa9-UTHUEe272fLTor173g" name="bairro" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa9-UjHUEe272fLTor173g" value="&quot;bairro&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa9-UzHUEe272fLTor173g" name="cep" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa-lYDHUEe272fLTor173g" value="&quot;cep&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa-lYTHUEe272fLTor173g" name="cidade" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa-lYjHUEe272fLTor173g" value="&quot;cidade&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa_McDHUEe272fLTor173g" name="estado" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa_McTHUEe272fLTor173g" value="&quot;estado&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa_McjHUEe272fLTor173g" name="email" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa_zgDHUEe272fLTor173g" value="&quot;email&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aa_zgTHUEe272fLTor173g" name="numero" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aa_zgjHUEe272fLTor173g" value="&quot;numero&quot;"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTNwgDHUEe272fLTor173g" name="DestinoDtoMetadata">
+        <ownedAttribute xmi:id="_abAakDHUEe272fLTor173g" name="tableName" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abAakTHUEe272fLTor173g" value="&quot;destino&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abBBoDHUEe272fLTor173g" name="id" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abBBoTHUEe272fLTor173g" value="&quot;id&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abBosDHUEe272fLTor173g" name="nome" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abBosTHUEe272fLTor173g" value="&quot;nome&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abBosjHUEe272fLTor173g" name="dataIda" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abCPwDHUEe272fLTor173g" value="&quot;data_ida&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abCPwTHUEe272fLTor173g" name="dataVolta" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abCPwjHUEe272fLTor173g" value="&quot;data_volta&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abC20DHUEe272fLTor173g" name="valorIntegral" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abC20THUEe272fLTor173g" value="&quot;valor_integral&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abC20jHUEe272fLTor173g" name="cliente" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abDd4DHUEe272fLTor173g" value="&quot;fk_cliente_id&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abDd4THUEe272fLTor173g" name="cidade" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abDd4jHUEe272fLTor173g" value="&quot;cidade&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abEE8DHUEe272fLTor173g" name="estado" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abEE8THUEe272fLTor173g" value="&quot;estado&quot;"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aTRa4DHUEe272fLTor173g" name="HospedagemDtoMetadata">
+        <ownedAttribute xmi:id="_abEE8jHUEe272fLTor173g" name="tableName" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abEsADHUEe272fLTor173g" value="&quot;hospedagem&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abEsATHUEe272fLTor173g" name="id" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abEsAjHUEe272fLTor173g" value="&quot;id&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abEsAzHUEe272fLTor173g" name="nomeHotel" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abFTEDHUEe272fLTor173g" value="&quot;nome_hotel&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abFTETHUEe272fLTor173g" name="endereco" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abFTEjHUEe272fLTor173g" value="&quot;endereco&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abFTEzHUEe272fLTor173g" name="estado" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abFTFDHUEe272fLTor173g" value="&quot;estado&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abF6IDHUEe272fLTor173g" name="valorIntegral" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abF6ITHUEe272fLTor173g" value="&quot;valor_integral&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abF6IjHUEe272fLTor173g" name="checkIn" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abF6IzHUEe272fLTor173g" value="&quot;check_in&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abGhMDHUEe272fLTor173g" name="checkOut" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abGhMTHUEe272fLTor173g" value="&quot;check_out&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abGhMjHUEe272fLTor173g" name="numeroHotel" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abGhMzHUEe272fLTor173g" value="&quot;numero_hotel&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_abHIQDHUEe272fLTor173g" name="cliente" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_abHIQTHUEe272fLTor173g" value="&quot;fk_cliente_id&quot;"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aR7XEDHUEe272fLTor173g" name="Main">
+      <generalization xmi:id="_KbFIQDHWEe272fLTor173g" general="_aShM8DHUEe272fLTor173g"/>
+      <generalization xmi:id="_LIZhQDHWEe272fLTor173g" general="_aTVsUDHUEe272fLTor173g"/>
+      <generalization xmi:id="_LnEaQDHWEe272fLTor173g" general="_aTk84DHUEe272fLTor173g"/>
+      <generalization xmi:id="_L9_sgDHWEe272fLTor173g" general="_aS6OgDHUEe272fLTor173g"/>
+      <generalization xmi:id="_MVuQADHWEe272fLTor173g" general="_aSuBQDHUEe272fLTor173g"/>
+      <generalization xmi:id="_MrRpQDHWEe272fLTor173g" general="_aTcaADHUEe272fLTor173g"/>
+      <generalization xmi:id="_X0nVMDHWEe272fLTor173g" general="_aTF0sDHUEe272fLTor173g"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abaqQDHUEe272fLTor173g" name="consultarCliente" specification="_aaT3ADHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abaqQTHUEe272fLTor173g" name="clientes" type="_aZPgADHUEe272fLTor173g"/>
+        <language>java</language>
+        <body>out.println(&quot;---------------------------------&quot;);&#xD;
+     for (var cliente : clientes) {&#xD;
+         out.println(&#xD;
+                 &quot;Id: &quot; + cliente.getId() +&#xD;
+                 &quot;Cf: &quot; + cliente.getCpf() +&#xD;
+                 &quot;Nome Completo: &quot; + cliente.getNomeCompleto() +&#xD;
+                 &quot;rua: &quot; + cliente.getRua() +&#xD;
+                 &quot;Bairro: &quot; + cliente.getBairro() +&#xD;
+                 &quot;Cep: &quot; + cliente.getCep() +&#xD;
+                 &quot;Cidade: &quot; + cliente.getCidade() +&#xD;
+                 &quot;Estado: &quot; + cliente.getEstado() +&#xD;
+                 &quot;Email: &quot; + cliente.getEmail() +&#xD;
+                 &quot;Numero: &quot; + cliente.getNumero() &#xD;
+         );&#xD;
+         out.println(&quot;---------------------------------&quot;);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abfiwDHUEe272fLTor173g" name="consultarHospedagem" specification="_aaZWkDHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abfiwTHUEe272fLTor173g" name="hospedagems" type="_aZPgADHUEe272fLTor173g"/>
+        <language>java</language>
+        <body>SimpleDateFormat simpleDateFormat = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;);&#xD;
+     out.println(&quot;---------------------------------&quot;);&#xD;
+     for (var hospedagem : hospedagems) {&#xD;
+         out.println(&#xD;
+                 &quot;Id: &quot; + hospedagem.getId() +&#xD;
+                 &quot;Nome do Hotel: &quot; + hospedagem.getNomeHotel() +&#xD;
+                 &quot;Endereço: &quot; + hospedagem.getEndereço() +&#xD;
+                 &quot;Estado: &quot; + hospedagem.getEstado() +&#xD;
+                 &quot;Valor: &quot; + hospedagem.getValorIntegral() +&#xD;
+                 &quot;Data de Checkin (yyyy/MM/dd): &quot; + simpleDateFormat.format(hospedagem.getCheckIn()) +&#xD;
+                 &quot;Data de Checkout (yyyy/MM/dd): &quot; + simpleDateFormat.format(hospedagem.getCheckOut()) +&#xD;
+                 &quot;Dados do Cliente: &quot; + hospedagem.getCliente()&#xD;
+                  &#xD;
+         );&#xD;
+         out.println(&quot;---------------------------------&quot;);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abgJ0DHUEe272fLTor173g" name="insiraHospedagemCliente" specification="_aaby0DHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abgJ0THUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_abgJ0jHUEe272fLTor173g" name="hospedagem" type="_aTk84DHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_abgJ0zHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+        <language>java</language>
+        <body>out.println(&quot;---- Cadastro de Hospedagem -----&quot;);&#xD;
+		DateFormat date = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;);&#xD;
+     out.println(&quot;Informe o nome do Hotel: &quot;);&#xD;
+     	hospedagem.setNomeHotel(scanner.next());&#xD;
+     out.println(&quot;Informe o Endereço do hotel&quot;);&#xD;
+         hospedagem.setEndereço(scanner.next());&#xD;
+     out.println(&quot;Informe o estado&quot;);&#xD;
+         hospedagem.setEstado(scanner.next());&#xD;
+     out.println(&quot;Informe o valor da hospedagem&quot;);&#xD;
+     	hospedagem.setValorIntegral(scanner.nextFloat());&#xD;
+     out.println(&quot;Informe a data do chekin (yyyy/MM/dd)&quot;);&#xD;
+         hospedagem.setCheckIn(date.parse(scanner.next()));&#xD;
+     out.println(&quot;Informe a data do chekout (yyyy/MM/dd)&quot;);&#xD;
+         hospedagem.setCheckOut(date.parse(scanner.next()));&#xD;
+     out.println(&quot;Informe o NUmero do hotel:&quot;);&#xD;
+     	hospedagem.setNumeroHotel(scanner.next());&#xD;
+     out.println(&quot;---- Dados do Cliente -----&quot;);&#xD;
+     out.println(&quot;Informe o Cpf do Cliente:&quot;);&#xD;
+         cliente.setCpf(scanner.next());&#xD;
+     out.println(&quot;Informe o nome completo do Cliente:&quot;);&#xD;
+     	cliente.setNomeCompleto(scanner.next());&#xD;
+     out.println(&quot;Informe a rua do Cliente:&quot;);&#xD;
+     	cliente.setRua(scanner.next());&#xD;
+     out.println(&quot;Informe o Bairro do Cliente:&quot;);&#xD;
+     	cliente.setBairro(scanner.next());&#xD;
+     out.println(&quot;Informe o CEP Cliente:&quot;);&#xD;
+     	cliente.setCep(scanner.next());&#xD;
+     out.println(&quot;Informe a cidade: &quot;);&#xD;
+     	cliente.setCidade(scanner.next());&#xD;
+     out.println(&quot;Informe o estado UF:&quot;);&#xD;
+     	cliente.setEstado(scanner.next());&#xD;
+     out.println(&quot;Informe o Email do cliente:&quot;);&#xD;
+     	cliente.setEmail(scanner.next());&#xD;
+     out.println(&quot;Informe o numero &quot;);&#xD;
+     	cliente.setNumero(scanner.next());&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abgJ1DHUEe272fLTor173g" name="consultarDestino" specification="_aadA8DHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abgJ1THUEe272fLTor173g" name="destinos" type="_aZPgADHUEe272fLTor173g"/>
+        <language>java</language>
+        <body>SimpleDateFormat simpleDateFormat = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;);&#xD;
+     out.println(&quot;---------------------------------&quot;);&#xD;
+     for (var destino : destinos) {&#xD;
+         out.println(&#xD;
+                 &quot;Id: &quot; + destino.getId() +&#xD;
+                 &quot;     Nome do Destino: \n&quot; + destino.getNome() +&#xD;
+                 &quot;Cidade: &quot; + destino.getCidade() +&#xD;
+                 &quot;   Estado: \n&quot; + destino.getEstado() +&#xD;
+                 &quot;Data ida (yyyy/MM/dd): &quot; + simpleDateFormat.format(destino.getDataIda()) +&#xD;
+                 &quot;    Data volta (yyyy/MM/dd): \n&quot; + simpleDateFormat.format(destino.getDataVolta()) +&#xD;
+                 &quot;Valor: &quot; + destino.getValorIntegral() +&#xD;
+                 &quot;   Dados do Cliente: &quot; + destino.getCliente()&#xD;
+                  &#xD;
+         );&#xD;
+         out.println(&quot;---------------------------------&quot;);&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abgw4DHUEe272fLTor173g" name="insiraDestinoCliente" specification="_aae2IDHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abgw4THUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_abgw4jHUEe272fLTor173g" name="destino" type="_aTcaADHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_abgw4zHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+        <language>java</language>
+        <body>out.println(&quot;---- Cadastro de Destino -----&quot;);&#xD;
+		DateFormat date = new SimpleDateFormat(&quot;yyyy/MM/dd&quot;);&#xD;
+     out.println(&quot;Informe o nome do Destino: &quot;);&#xD;
+     	destino.setNome(scanner.next());&#xD;
+     out.println(&quot;Informe o a cidade:&quot;);&#xD;
+     	destino.setCidade(scanner.next());&#xD;
+     out.println(&quot;Informe o estado:&quot;);&#xD;
+     	destino.setEstado(scanner.next());&#xD;
+     out.println(&quot;Informe a data de ida (yyyy/MM/dd)&quot;);&#xD;
+     	destino.setDataIda(date.parse(scanner.next()));&#xD;
+     out.println(&quot;Informe a data de volta (yyyy/MM/dd)&quot;);&#xD;
+     	destino.setDataVolta(date.parse(scanner.next()));&#xD;
+     out.println(&quot;Informe o valor do destino&quot;);&#xD;
+     	destino.setValorIntegral(scanner.nextFloat());&#xD;
+     out.println(&quot;---- Dados do Cliente -----&quot;);&#xD;
+     out.println(&quot;Informe o Cpf do Cliente:&quot;);&#xD;
+         cliente.setCpf(scanner.next());&#xD;
+     out.println(&quot;Informe o nome completo do Cliente:&quot;);&#xD;
+     	cliente.setNomeCompleto(scanner.next());&#xD;
+     out.println(&quot;Informe a rua do Cliente:&quot;);&#xD;
+     	cliente.setRua(scanner.next());&#xD;
+     out.println(&quot;Informe o Bairro do Cliente:&quot;);&#xD;
+     	cliente.setBairro(scanner.next());&#xD;
+     out.println(&quot;Informe o CEP Cliente:&quot;);&#xD;
+     	cliente.setCep(scanner.next());&#xD;
+     out.println(&quot;Informe a cidade: &quot;);&#xD;
+     	cliente.setCidade(scanner.next());&#xD;
+     out.println(&quot;Informe o estado UF:&quot;);&#xD;
+     	cliente.setEstado(scanner.next());&#xD;
+     out.println(&quot;Informe o Email do cliente:&quot;);&#xD;
+     	cliente.setEmail(scanner.next());&#xD;
+     out.println(&quot;Informe o numero &quot;);&#xD;
+     	cliente.setNumero(scanner.next());&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abgw5DHUEe272fLTor173g" name="readIdOfClient" specification="_aagEQDHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abgw5THUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_abgw5jHUEe272fLTor173g" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>out.println(&quot;Informe o ID do Cliente: &quot;);&#xD;
+         return scanner.nextLong();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abhX8DHUEe272fLTor173g" name="menu" specification="_aahSYDHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abhX8THUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_abhX8jHUEe272fLTor173g" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>out.println(&#xD;
+             &quot;OPÇÕES: \n&quot; +&#xD;
+             		&quot;Clientes só pode ser cadastrados vinculados a alguma Hospedagem\n&quot;+&#xD;
+             		&quot;ou Destino, sempre inserir os mesmos com os dados do cliente.\n&quot; +&#xD;
+             		&quot;------------------------------------------\n&quot; +&#xD;
+                     &quot;[1]  - Consultar Todas as Hospedagens\n&quot; +&#xD;
+                     &quot;[2]  - Inserir Hospedagem\n&quot; +&#xD;
+                     &quot;[3]  - Consultar Hospedagem por ID\n&quot; +&#xD;
+                     &quot;[4]  - Deletar Hospedagem por ID\n&quot; +&#xD;
+                     &quot;[5]  - Atualizar Hospedagem por ID\n&quot; +&#xD;
+                     &quot;[6]  - Consultar Todos os Destino\n&quot; + &#xD;
+                     &quot;[7]  - Inserir Destino\n&quot; +&#xD;
+                     &quot;[8]  - Consultar Destino por ID\n&quot; +&#xD;
+                     &quot;[9]  - Deletar Destino por ID\n&quot; +&#xD;
+                     &quot;[10] - Atualizar Destino por ID\n&quot; + &#xD;
+                     &quot;[11] - Consultar Cliente por ID\n&quot; +&#xD;
+                     &quot;ESC para Encerrar&quot;&#xD;
+     );&#xD;
+     return scanner.nextInt();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_abhX8zHUEe272fLTor173g" name="main" specification="_aSRVUDHUEe272fLTor173g">
+        <ownedParameter xmi:id="_abhX9DHUEe272fLTor173g" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_abhX9THUEe272fLTor173g" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Scanner scanner = new Scanner(in);&#xD;
+     var connection = Database.createConnectionToMySql();&#xD;
+     ClienteDAO clienteDao = new ClienteDAO(connection);&#xD;
+     HospedagemDAO hospedagemDao = new HospedagemDAO(connection, clienteDao);&#xD;
+     DestinoDAO destinoDao = new DestinoDAO(connection, clienteDao);&#xD;
+&#xD;
+&#xD;
+     out.println(&quot;------ ACESSO AO BANCO DE DADOS ------&quot;);&#xD;
+     var option = menu(scanner);&#xD;
+     &#xD;
+     while (option > 0 &amp;&amp; option &lt; 12) {&#xD;
+         switch (option) {&#xD;
+             case 1:&#xD;
+             	consultarHospedagem(hospedagemDao.findAll());&#xD;
+                 option = menu(scanner);&#xD;
+                 break;&#xD;
+             case 2:&#xD;
+                 Hospedagem hospedagem = new Hospedagem();&#xD;
+                 Cliente cliente = new Cliente();&#xD;
+                 insiraHospedagemCliente(scanner, hospedagem, cliente);&#xD;
+                 long clienteId = clienteDao.create(cliente);&#xD;
+                 hospedagemDao.create(hospedagem, clienteId);&#xD;
+                 option = menu(scanner);&#xD;
+                 break;&#xD;
+             case 3:&#xD;
+             	consultarHospedagem(hospedagemDao.findByPk(readIdOfClient(scanner)));&#xD;
+                 option = menu(scanner);&#xD;
+                 break;&#xD;
+             case 4:&#xD;
+                 hospedagemDao.delete(readIdOfClient(scanner));&#xD;
+                 option = menu(scanner);&#xD;
+                 break;&#xD;
+             case 5:&#xD;
+                 Hospedagem hospedagemToUpdate = new Hospedagem();&#xD;
+                 Cliente clienteToUpdate = new Cliente();&#xD;
+                 hospedagemToUpdate.setId(readIdOfClient(scanner));&#xD;
+                 insiraHospedagemCliente(scanner, hospedagemToUpdate, clienteToUpdate);&#xD;
+                 hospedagemDao.update(hospedagemToUpdate);&#xD;
+                 option = menu(scanner);&#xD;
+                 break;    &#xD;
+                   &#xD;
+         }&#xD;
+         &#xD;
+     while (option > 6 &amp;&amp; option &lt; 12) {&#xD;
+     	switch(option) {&#xD;
+     	case 6:&#xD;
+         	consultarDestino(destinoDao.findAll());&#xD;
+             option = menu(scanner);&#xD;
+             break;&#xD;
+     case 7:&#xD;
+         Destino destino = new Destino();&#xD;
+         Cliente cliente = new Cliente();&#xD;
+         insiraDestinoCliente(scanner, destino, cliente);&#xD;
+         long clienteId = clienteDao.create(cliente);&#xD;
+         destinoDao.create(destino, clienteId);&#xD;
+         option = menu(scanner);&#xD;
+         break;&#xD;
+     case 8:&#xD;
+     	consultarDestino(destinoDao.findByPk(readIdOfClient(scanner)));&#xD;
+         option = menu(scanner);&#xD;
+         break;&#xD;
+     case 9:&#xD;
+         destinoDao.delete(readIdOfClient(scanner));&#xD;
+         option = menu(scanner);&#xD;
+         break;&#xD;
+     case 10:&#xD;
+         Destino destinoToUpdate = new Destino();&#xD;
+         Cliente clienteToUpdate = new Cliente();&#xD;
+         destinoToUpdate.setId(readIdOfClient(scanner));&#xD;
+         insiraDestinoCliente(scanner, destinoToUpdate, clienteToUpdate);&#xD;
+         destinoDao.update(destinoToUpdate);&#xD;
+         option = menu(scanner);&#xD;
+         break;&#xD;
+     case 11:&#xD;
+     	consultarCliente(clienteDao.findByPk2(readIdOfClient(scanner)));&#xD;
+         option = menu(scanner);&#xD;
+         break;&#xD;
+         &#xD;
+     	&#xD;
+     }&#xD;
+             &#xD;
+                 &#xD;
+               &#xD;
+             &#xD;
+             &#xD;
+             &#xD;
+             &#xD;
+         &#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_aSRVUDHUEe272fLTor173g" name="main" isStatic="true" method="_abhX8zHUEe272fLTor173g" raisedException="_aah5cDHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aSR8YDHUEe272fLTor173g" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aSUYoDHUEe272fLTor173g" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aaT3ADHUEe272fLTor173g" name="consultarCliente" isStatic="true" method="_abaqQDHUEe272fLTor173g" raisedException="_aZafITHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aaVFIDHUEe272fLTor173g" name="clientes" type="_aZPgADHUEe272fLTor173g"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aaZWkDHUEe272fLTor173g" name="consultarHospedagem" isStatic="true" method="_abfiwDHUEe272fLTor173g" raisedException="_aZafITHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aaZWkTHUEe272fLTor173g" name="hospedagems" type="_aZPgADHUEe272fLTor173g"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aaby0DHUEe272fLTor173g" name="insiraHospedagemCliente" isStatic="true" method="_abgJ0DHUEe272fLTor173g" raisedException="_aZafITHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aaby0THUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_aaby0jHUEe272fLTor173g" name="hospedagem" type="_aTk84DHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_aaby0zHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aadA8DHUEe272fLTor173g" name="consultarDestino" isStatic="true" method="_abgJ1DHUEe272fLTor173g" raisedException="_aZafITHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aadA8THUEe272fLTor173g" name="destinos" type="_aZPgADHUEe272fLTor173g"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aae2IDHUEe272fLTor173g" name="insiraDestinoCliente" isStatic="true" method="_abgw4DHUEe272fLTor173g" raisedException="_aZafITHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aae2ITHUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_aafdMDHUEe272fLTor173g" name="destino" type="_aTcaADHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_aafdMTHUEe272fLTor173g" name="cliente" type="_aTVsUDHUEe272fLTor173g"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aagEQDHUEe272fLTor173g" name="readIdOfClient" isStatic="true" method="_abgw5DHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aagEQTHUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_aagrUDHUEe272fLTor173g" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_aahSYDHUEe272fLTor173g" name="menu" isStatic="true" method="_abhX8DHUEe272fLTor173g">
+        <ownedParameter xmi:id="_aahSYTHUEe272fLTor173g" name="scanner" type="_aZeJgTHUEe272fLTor173g"/>
+        <ownedParameter xmi:id="_aahSYjHUEe272fLTor173g" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_aR7-IDHUEe272fLTor173g">
+      <eAnnotations xmi:id="_aSA2oDHUEe272fLTor173g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Reference xmi:id="_aZR8QDHUEe272fLTor173g" base_Element="_aZPgADHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZYp8DHUEe272fLTor173g" base_Element="_aZW0wDHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZafIDHUEe272fLTor173g" base_Element="_aZZRADHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZcUUDHUEe272fLTor173g" base_Element="_aZafITHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZeJgDHUEe272fLTor173g" base_Element="_aZcUUTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZf-sDHUEe272fLTor173g" base_Element="_aZeJgTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZn6gDHUEe272fLTor173g" base_Element="_aZmFUDHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZpvsDHUEe272fLTor173g" base_Element="_aZohkDHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZrk4DHUEe272fLTor173g" base_Element="_aZpvsTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZtaEDHUEe272fLTor173g" base_Element="_aZrk4THUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZvPQDHUEe272fLTor173g" base_Element="_aZtaETHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZzgsDHUEe272fLTor173g" base_Element="_aZySkDHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aZ_G4DHUEe272fLTor173g" base_Element="_aZ9RsDHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aaD_YDHUEe272fLTor173g" base_Element="_aaCKMDHUEe272fLTor173g"/>
+  <UMLLabProfile:Generics xmi:id="_aaXhYDHUEe272fLTor173g" genericsValue="Cliente" base_Element="_aaVFIDHUEe272fLTor173g"/>
+  <UMLLabProfile:Generics xmi:id="_aabLwDHUEe272fLTor173g" genericsValue="Hospedagem" base_Element="_aaZWkTHUEe272fLTor173g"/>
+  <UMLLabProfile:Generics xmi:id="_aaePEDHUEe272fLTor173g" genericsValue="Destino" base_Element="_aadA8THUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_aajuoDHUEe272fLTor173g" base_Element="_aah5cDHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aay_MDHUEe272fLTor173g" base_Element="_aayYIDHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa0NUDHUEe272fLTor173g" base_Element="_aazmQDHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa1bcDHUEe272fLTor173g" base_Element="_aa00YDHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa2pkDHUEe272fLTor173g" base_Element="_aa2CgDHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa3QoDHUEe272fLTor173g" base_Element="_aa2pkTHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa5F0DHUEe272fLTor173g" base_Element="_aa4ewDHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa5s4DHUEe272fLTor173g" base_Element="_aa5F0THUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aa6T8DHUEe272fLTor173g" base_Element="_aa5s4THUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_abNO4DHUEe272fLTor173g" base_Element="_abMn0DHUEe272fLTor173g"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_abQ5QDHUEe272fLTor173g" base_Element="_abQSMTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab39QDHUEe272fLTor173g" base_Element="_ab2vIDHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab5LYDHUEe272fLTor173g" base_Element="_ab39QTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab7AkDHUEe272fLTor173g" base_Element="_ab5LYTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab8OsDHUEe272fLTor173g" base_Element="_ab7AkTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab9c0DHUEe272fLTor173g" base_Element="_ab8OsTHUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab-q8DHUEe272fLTor173g" base_Element="_ab9c0THUEe272fLTor173g"/>
+  <UMLLabProfile:Reference xmi:id="_ab_5EDHUEe272fLTor173g" base_Element="_ab-q8THUEe272fLTor173g"/>
+</xmi:XMI>

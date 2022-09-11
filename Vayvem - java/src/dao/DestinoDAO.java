@@ -14,7 +14,7 @@ import dto.DestinoDtoMetadata;
 import model.Destino;
 
 public class DestinoDAO {
-	private static String sql;
+public static String sql;
     private final Connection connection;
     private final ClienteDAO clienteDao;
     public DestinoDAO(Connection connection, ClienteDAO clienteDao) {
@@ -40,7 +40,7 @@ public class DestinoDAO {
             System.out.printf("[LOG] Destino inserida com sucesso. Result: %s", result);
 
         } catch (SQLException e) {
-            System.out.printf("[ERROR] Destino n√£o foi inserido. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] Destino n„o foi inserido. Message:\n%s", e.getMessage());
         }
     }
     
@@ -123,7 +123,7 @@ public class DestinoDAO {
             preparedStatement.executeUpdate();
             System.out.println("[LOG] destino excluida com sucesso.");
         } catch (SQLException e) {
-            System.out.printf("[ERROR] exclus√£o destino falhou. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] exclus„o destino falhou. Message:\n%s", e.getMessage());
         }
     }
 
@@ -155,9 +155,9 @@ public class DestinoDAO {
             preparedStatement.setFloat(6, destino.getValorIntegral());
             preparedStatement.setLong(7, destino.getId());
             preparedStatement.executeUpdate();
-            System.out.println("[LOG] Atualiza√ß√£o realizada com sucesso.");
+            System.out.println("[LOG] AtualizaÁ„o realizada com sucesso.");
         } catch (SQLException e) {
-            System.out.printf("[ERROR] Atualiza√ß√£o falhou. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] AtualizaÁ„o falhou. Message:\n%s", e.getMessage());
         }
     }
 

@@ -14,7 +14,7 @@ import dto.HospedagemDtoMetadata;
 import model.Hospedagem;
 
 public class HospedagemDAO {
-	private static String sql;
+public static String sql;
     private final Connection connection;
     private final ClienteDAO clienteDao;
     public HospedagemDAO(Connection connection, ClienteDAO clienteDao) {
@@ -41,7 +41,7 @@ public class HospedagemDAO {
             System.out.printf("[LOG] Hospedagem inserida com sucesso. Result: %s", result);
 
         } catch (SQLException e) {
-            System.out.printf("[ERROR] Hospedagem não foi inserido. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] Hospedagem n�o foi inserido. Message:\n%s", e.getMessage());
         }
     }
     
@@ -127,7 +127,7 @@ public class HospedagemDAO {
             preparedStatement.executeUpdate();
             System.out.println("[LOG] Hospedagem excluida com sucesso.");
         } catch (SQLException e) {
-            System.out.printf("[ERROR] exclusão hospedagem falhou. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] exclus�o hospedagem falhou. Message:\n%s", e.getMessage());
         }
     }
 
@@ -161,9 +161,9 @@ public class HospedagemDAO {
             preparedStatement.setString(8, hospedagem.getNumeroHotel());
             preparedStatement.setLong(9, hospedagem.getId());
             preparedStatement.executeUpdate();
-            System.out.println("[LOG] Atualização realizada com sucesso.");
+            System.out.println("[LOG] Atualiza��o realizada com sucesso.");
         } catch (SQLException e) {
-            System.out.printf("[ERROR] Atualização falhou. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] Atualiza��o falhou. Message:\n%s", e.getMessage());
         }
     }
 

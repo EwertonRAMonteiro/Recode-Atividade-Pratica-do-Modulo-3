@@ -12,7 +12,7 @@ import model.Cliente;
 
 
 public class ClienteDAO {
-    private static String sql;
+public static String sql;
     private final Connection connection;
 
     public ClienteDAO(Connection connection) {
@@ -43,7 +43,7 @@ public class ClienteDAO {
             return  clienteId;
 
         } catch (SQLException e) {
-            System.out.printf("[ERROR] Cliente n√£o foi inserido. Message:\n%s", e.getMessage());
+            System.out.printf("[ERROR] Cliente n„o foi inserido. Message:\n%s", e.getMessage());
             return -1L;
         }
     }

@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_nrtREDHTEe272fLTor173g">
+  <modelElement href="Vayvem.uml#_nqAn8DHTEe272fLTor173g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xhZuYDHUEe272fLTor173g" source="_xhaVcDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab2vIDHUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xhZuYTHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab39QDHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xhZuYjHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xhZuYzHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab2vITHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhZuZDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhZuZTHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xhZuZjHUEe272fLTor173g" aggregationKind="NONE" name="connection" navigable="true">
+      <modelElement href="Vayvem.uml#_aazmQDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RSugEDHXEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa0NUDHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xhZuZzHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xhZuaDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xhhDIDHUEe272fLTor173g" sourceAnchor="483.0,50.0" targetAnchor="0.0,74.0" target="_xhaVcDHUEe272fLTor173g" source="_xhoX4DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab5LYTHUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xhi4UDHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab7AkDHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xhiRQTHUEe272fLTor173g" text="">
+      <visualProperties xmi:id="_xrHEADHUEe272fLTor173g" position="-33.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xhiRQjHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab5LYjHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrFO0THUEe272fLTor173g" position="13.0,2.0"/>
+      <visibility xmi:id="_xhlUlDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhlUkzHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xhiRQzHUEe272fLTor173g" aggregationKind="NONE" name="clienteDao" navigable="true">
+      <modelElement href="Vayvem.uml#_aa2pkTHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrHrEDHUEe272fLTor173g" position="-109.0,-47.0"/>
+      <stereotypes xmi:id="_RSvHIDHXEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa3QoDHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xhl7oTHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xhl7oDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xhiRQDHUEe272fLTor173g" source="_xhoX4DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab39QTHUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xhlUkjHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab5LYDHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xhktgDHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xhlUkDHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab39QjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhmisTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhmisDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xhlUkTHUEe272fLTor173g" aggregationKind="NONE" name="connection" navigable="true">
+      <modelElement href="Vayvem.uml#_aa2CgDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RSvuMDHXEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa2pkDHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xhnJwTHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xhnJwDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xhzXADHUEe272fLTor173g" sourceAnchor="0.0,25.0" targetAnchor="341.0,69.0" target="_xhaVcDHUEe272fLTor173g" source="_xh7S0DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab8OsTHUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xh1MMzHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab9c0DHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xh1MMDHUEe272fLTor173g" text="">
+      <visualProperties xmi:id="_xrJgQDHUEe272fLTor173g" position="-31.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xh1MMTHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab8OsjHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrI5MDHUEe272fLTor173g" position="-29.0,-47.0"/>
+      <visibility xmi:id="_xh42kjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh42kTHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xh1MMjHUEe272fLTor173g" aggregationKind="NONE" name="clienteDao" navigable="true">
+      <modelElement href="Vayvem.uml#_aa5s4THUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrKHUDHUEe272fLTor173g" position="29.0,2.0"/>
+      <stereotypes xmi:id="_RSvuMTHXEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa6T8DHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xh42lDHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xh42kzHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xh0lIDHUEe272fLTor173g" source="_xh7S0DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab7AkTHUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xh42kDHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab8OsDHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xh4PgDHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xh4PgTHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab7AkjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xh6EsTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh6EsDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xh4PgjHUEe272fLTor173g" aggregationKind="NONE" name="connection" navigable="true">
+      <modelElement href="Vayvem.uml#_aa5F0THUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RSwVQDHXEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa5s4DHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xh6EszHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xh6EsjHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xirgwDHUEe272fLTor173g" sourceAnchor="209.0,114.0" targetAnchor="0.0,122.0" target="_xivyMDHUEe272fLTor173g" source="_xi9NkDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab9c0THUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xitV8zHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab-q8DHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xitV8DHUEe272fLTor173g" text="">
+      <visualProperties xmi:id="_xrL8gDHUEe272fLTor173g" position="-35.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xitV8THUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab9c0jHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrLVcDHUEe272fLTor173g" position="15.0,2.0"/>
+      <visibility xmi:id="_xiukEDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xit9AzHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xitV8jHUEe272fLTor173g" aggregationKind="NONE" name="cliente" navigable="true">
+      <modelElement href="Vayvem.uml#_abMn0DHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrMjkDHUEe272fLTor173g" position="-93.0,2.0"/>
+      <stereotypes xmi:id="_xiukEzHUEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_abNO4DHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xiukEjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiukETHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xirgwTHUEe272fLTor173g" sourceAnchor="0.0,107.0" targetAnchor="179.0,122.0" target="_xivyMDHUEe272fLTor173g" source="_xjL3EDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ab-q8THUEe272fLTor173g"/>
+    <stereotypes xmi:id="_xit9AjHUEe272fLTor173g" name="Reference">
+      <modelElement href="Vayvem.uml#_ab_5EDHUEe272fLTor173g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_xitV9DHUEe272fLTor173g" text="">
+      <visualProperties xmi:id="_xrOYwDHUEe272fLTor173g" position="-18.0,1.9999999999999716"/>
+    </nameVisual>
+    <sourceRole xmi:id="_xit9ADHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_ab-q8jHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrNxsDHUEe272fLTor173g" position="-30.0,2.0"/>
+      <visibility xmi:id="_xiukFTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiukFDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xit9ATHUEe272fLTor173g" aggregationKind="NONE" name="cliente" navigable="true">
+      <modelElement href="Vayvem.uml#_abQSMTHUEe272fLTor173g"/>
+      <visualProperties xmi:id="_xrOYwTHUEe272fLTor173g" position="35.0,-46.999999999999986"/>
+      <stereotypes xmi:id="_xivLIjHUEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_abQ5QDHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xivLITHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivLIDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xi7YYDHUEe272fLTor173g" target="_xi9NkDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_abtlMDHUEe272fLTor173g"/>
+    <nameVisual xmi:id="_xi7YYTHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xi7YYjHUEe272fLTor173g" aggregationKind="NONE" name="dataIda" navigable="true">
+      <modelElement href="Vayvem.uml#_abLZsTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi7YYzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi7YZDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xi7YZTHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_abuMQDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi7YZjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi7YZzHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xi8mgDHUEe272fLTor173g" target="_xi9NkDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_abuMQTHUEe272fLTor173g"/>
+    <nameVisual xmi:id="_xi8mgTHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xi8mgjHUEe272fLTor173g" aggregationKind="NONE" name="dataVolta" navigable="true">
+      <modelElement href="Vayvem.uml#_abMAwDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi8mgzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi8mhDHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xi8mhTHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_abuzUDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi8mhjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi8mhzHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xjG-kDHUEe272fLTor173g" target="_xjL3EDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_abuzUTHUEe272fLTor173g"/>
+    <nameVisual xmi:id="_xjIzwDHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xjIzwTHUEe272fLTor173g" aggregationKind="NONE" name="checkIn" navigable="true">
+      <modelElement href="Vayvem.uml#_abPrIDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjKo8THUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjKo8DHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xjIzwjHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_abuzUjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjKo8zHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjKo8jHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_xjG-kTHUEe272fLTor173g" target="_xjL3EDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_abvaYDHUEe272fLTor173g"/>
+    <nameVisual xmi:id="_xjJa0DHUEe272fLTor173g" text=""/>
+    <sourceRole xmi:id="_xjJa0THUEe272fLTor173g" aggregationKind="NONE" name="checkOut" navigable="true">
+      <modelElement href="Vayvem.uml#_abPrITHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjKo9THUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjKo9DHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_xjJa0jHUEe272fLTor173g" aggregationKind="NONE" name="">
+      <modelElement href="Vayvem.uml#_abvaYTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjLQATHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjLQADHUEe272fLTor173g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-6y78DHVEe272fLTor173g" sourceAnchor="166.0,0.0" targetAnchor="87.0,252.0" superClass="_xivyMDHUEe272fLTor173g" subClass="_xhaVcDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_-6xt0DHVEe272fLTor173g"/>
+    <visualProperties xmi:id="_-6y78THVEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxva8DHWEe272fLTor173g" sourceY="-30" targetX="-75" targetY="55"/>
+    <bendpoints xmi:id="_dxva8THWEe272fLTor173g" sourceX="75" sourceY="-111" targetY="-26"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__RlrUDHVEe272fLTor173g" sourceAnchor="268.0,0.0" targetAnchor="104.0,232.0" superClass="_xjL3EDHUEe272fLTor173g" subClass="_xh7S0DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#__RlEQDHVEe272fLTor173g"/>
+    <visualProperties xmi:id="__RlrUTHVEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxwCAjHWEe272fLTor173g" sourceY="-30" targetX="70" targetY="105"/>
+    <bendpoints xmi:id="_dxwCAzHWEe272fLTor173g" sourceX="-70" sourceY="-30" targetY="105"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="__gGBYDHVEe272fLTor173g" sourceAnchor="241.0,0.0" targetAnchor="104.0,214.0" superClass="_xi9NkDHUEe272fLTor173g" subClass="_xhoX4DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#__gEzQDHVEe272fLTor173g"/>
+    <visualProperties xmi:id="__gGBYTHVEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxwpEDHWEe272fLTor173g" sourceY="-30" targetX="-85" targetY="110"/>
+    <bendpoints xmi:id="_dxwpETHWEe272fLTor173g" sourceX="85" sourceY="-80" targetY="60"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_KbGWYDHWEe272fLTor173g" sourceAnchor="101.0,0.0" targetAnchor="166.0,156.0" superClass="_xhaVcDHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_KbFIQDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_KbGWYTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxxQITHWEe272fLTor173g" sourceY="-396" targetX="-185" targetY="27"/>
+    <bendpoints xmi:id="_dxxQIjHWEe272fLTor173g" sourceX="187" sourceY="-418" targetX="2" targetY="5"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_LIavYDHWEe272fLTor173g" sourceAnchor="471.0,0.0" targetAnchor="87.0,252.0" superClass="_xivyMDHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_LIZhQDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_LIavYTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxxQIzHWEe272fLTor173g" sourceY="-611" targetX="110" targetY="54"/>
+    <bendpoints xmi:id="_dxxQJDHWEe272fLTor173g" sourceX="-110" sourceY="-691" targetY="-26"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_LnFoYDHWEe272fLTor173g" sourceAnchor="553.0,93.0" targetAnchor="104.0,232.0" superClass="_xjL3EDHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_LnEaQDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_LnFoYTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxx3MDHWEe272fLTor173g" sourceX="560" targetX="297" targetY="765"/>
+    <bendpoints xmi:id="_dxx3MTHWEe272fLTor173g" sourceX="587" sourceY="-660" targetX="324" targetY="105"/>
+    <bendpoints xmi:id="_dxx3MjHWEe272fLTor173g" sourceX="263" sourceY="-660" targetY="105"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_L-A6oDHWEe272fLTor173g" sourceAnchor="501.0,0.0" targetAnchor="268.0,195.0" superClass="_xh7S0DHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_L9_sgDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_L-A6oTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxx3MzHWEe272fLTor173g" sourceY="-293" targetX="-385" targetY="47"/>
+    <bendpoints xmi:id="_dxx3NDHWEe272fLTor173g" sourceX="387" sourceY="-357" targetX="2" targetY="-17"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_MVveIDHWEe272fLTor173g" sourceAnchor="71.0,0.0" targetAnchor="241.0,195.0" superClass="_xhoX4DHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_MVuQADHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_MVveITHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxx3NTHWEe272fLTor173g" sourceY="-321" targetX="375" targetY="39"/>
+    <bendpoints xmi:id="_dxx3NjHWEe272fLTor173g" sourceX="-375" sourceY="-377" targetY="-17"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_MrS3YDHWEe272fLTor173g" sourceAnchor="0.0,93.0" targetAnchor="104.0,214.0" superClass="_xi9NkDHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_MrRpQDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_MrS3YTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxx3NzHWEe272fLTor173g" sourceX="-560" targetX="-343" targetY="790"/>
+    <bendpoints xmi:id="_dxx3ODHWEe272fLTor173g" sourceX="-559" sourceY="-705" targetX="-342" targetY="85"/>
+    <bendpoints xmi:id="_dxx3OTHWEe272fLTor173g" sourceX="-217" sourceY="-730" targetY="60"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_X0n8QDHWEe272fLTor173g" sourceAnchor="276.0,187.0" targetAnchor="160.0,0.0" superClass="_xiGR8DHUEe272fLTor173g" subClass="_xhOIMDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_X0nVMDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_X0n8QTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxyeQDHWEe272fLTor173g" sourceY="30" targetX="1109" targetY="-59"/>
+    <bendpoints xmi:id="_dxyeQTHWEe272fLTor173g" sourceX="-1109" sourceY="30" targetY="-59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Yc_j0DHWEe272fLTor173g" sourceAnchor="0.0,97.0" targetAnchor="160.0,0.0" superClass="_xiGR8DHUEe272fLTor173g" subClass="_xhoX4DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_Yc-8wDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_Yc_j0THWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxwpEjHWEe272fLTor173g" sourceX="-198" targetX="90" targetY="-736"/>
+    <bendpoints xmi:id="_dxwpEzHWEe272fLTor173g" sourceX="-198" sourceY="677" targetX="90" targetY="-59"/>
+    <bendpoints xmi:id="_dxwpFDHWEe272fLTor173g" sourceX="-288" sourceY="677" targetY="-59"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZFGssDHWEe272fLTor173g" sourceAnchor="196.0,0.0" targetAnchor="160.0,0.0" superClass="_xiGR8DHUEe272fLTor173g" subClass="_xhaVcDHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ZFGFoDHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_ZFGssTHWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxwCADHWEe272fLTor173g" sourceY="-16" targetX="1149" targetY="-873"/>
+    <bendpoints xmi:id="_dxwCATHWEe272fLTor173g" sourceX="-1149" sourceY="-16" targetY="-873"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZZvf8DHWEe272fLTor173g" sourceAnchor="504.0,194.0" targetAnchor="160.0,0.0" superClass="_xiGR8DHUEe272fLTor173g" subClass="_xh7S0DHUEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_ZZuR0DHWEe272fLTor173g"/>
+    <visualProperties xmi:id="_ZZvf8THWEe272fLTor173g"/>
+    <bendpoints xmi:id="_dxwCBDHWEe272fLTor173g" sourceY="560" targetX="1955" targetY="-59"/>
+    <bendpoints xmi:id="_dxwCBTHWEe272fLTor173g" sourceX="-1955" sourceY="560" targetY="-59"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xjL3EDHUEe272fLTor173g" name="Hospedagem" associationsIn="_xjG-kDHUEe272fLTor173g _xjG-kTHUEe272fLTor173g" associationsOut="_xirgwTHUEe272fLTor173g" subclassedBy="__RlrUDHVEe272fLTor173g _LnFoYDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aTk84DHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xjL3ETHUEe272fLTor173g" position="1856.0,-67.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xjL3EjHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xjL3EzHUEe272fLTor173g" name="id">
+      <modelElement href="Vayvem.uml#_abN18DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3FDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3FTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3FjHUEe272fLTor173g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3FzHUEe272fLTor173g" name="nomeHotel">
+      <modelElement href="Vayvem.uml#_abOdADHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3GDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3GTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3GjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3GzHUEe272fLTor173g" name="endereço">
+      <modelElement href="Vayvem.uml#_abOdATHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3HDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3HTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3HjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3HzHUEe272fLTor173g" name="estado">
+      <modelElement href="Vayvem.uml#_abPEEDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3IDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3ITHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3IjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3IzHUEe272fLTor173g" name="valorIntegral">
+      <modelElement href="Vayvem.uml#_abPEETHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3JDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3JTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3JjHUEe272fLTor173g" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3JzHUEe272fLTor173g" name="checkIn">
+      <modelElement href="Vayvem.uml#_abPrIDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3KDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3KTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3KjHUEe272fLTor173g" name="Date">
+        <modelElement href="Vayvem.uml#_aaCKMDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3KzHUEe272fLTor173g" name="checkOut">
+      <modelElement href="Vayvem.uml#_abPrITHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3LDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3LTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3LjHUEe272fLTor173g" name="Date">
+        <modelElement href="Vayvem.uml#_aaCKMDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3LzHUEe272fLTor173g" name="numeroHotel">
+      <modelElement href="Vayvem.uml#_abQSMDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3MDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3MTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3MjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xjL3MzHUEe272fLTor173g" name="cliente">
+      <modelElement href="Vayvem.uml#_abQSMTHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTOPUDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTO2YDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTSgwDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xjL3NDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3NTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xjL3NjHUEe272fLTor173g" name="Cliente">
+        <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xjL3NzHUEe272fLTor173g" name="getCliente">
+      <modelElement href="Vayvem.uml#_aTmyEDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3ODHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3OTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xjL3OjHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aaJe8DHUEe272fLTor173g"/>
+        <type xmi:id="_xjL3OzHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xjL3PDHUEe272fLTor173g" name="setCliente">
+      <modelElement href="Vayvem.uml#_aaKGADHUEe272fLTor173g"/>
+      <visibility xmi:id="_xjL3PTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xjL3PjHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xjL3PzHUEe272fLTor173g" name="cliente">
+        <modelElement href="Vayvem.uml#_aaKGATHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xjL3QDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xjL3QTHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xi9NkDHUEe272fLTor173g" name="Destino" associationsIn="_xi7YYDHUEe272fLTor173g _xi8mgDHUEe272fLTor173g" associationsOut="_xirgwDHUEe272fLTor173g" subclassedBy="__gGBYDHVEe272fLTor173g _MrS3YDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aTcaADHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xi9NkTHUEe272fLTor173g" position="821.0,-74.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xi9NkjHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xi9NkzHUEe272fLTor173g" name="id">
+      <modelElement href="Vayvem.uml#_abKLkDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NlDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NlTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NljHUEe272fLTor173g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NlzHUEe272fLTor173g" name="nome">
+      <modelElement href="Vayvem.uml#_abKyoDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NmDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NmTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NmjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NmzHUEe272fLTor173g" name="cidade">
+      <modelElement href="Vayvem.uml#_abKyoTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NnDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NnTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NnjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NnzHUEe272fLTor173g" name="estado">
+      <modelElement href="Vayvem.uml#_abLZsDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NoDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NoTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NojHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NozHUEe272fLTor173g" name="dataIda">
+      <modelElement href="Vayvem.uml#_abLZsTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NpDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NpTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NpjHUEe272fLTor173g" name="Date">
+        <modelElement href="Vayvem.uml#_aaCKMDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NpzHUEe272fLTor173g" name="dataVolta">
+      <modelElement href="Vayvem.uml#_abMAwDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NqDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NqTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NqjHUEe272fLTor173g" name="Date">
+        <modelElement href="Vayvem.uml#_aaCKMDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NqzHUEe272fLTor173g" name="valorIntegral">
+      <modelElement href="Vayvem.uml#_abMAwTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NrDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NrTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NrjHUEe272fLTor173g" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xi9NrzHUEe272fLTor173g" name="cliente">
+      <modelElement href="Vayvem.uml#_abMn0DHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTNBMDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTNoQDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTUV8DHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xi9NsDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NsTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xi9NsjHUEe272fLTor173g" name="Cliente">
+        <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xi9NszHUEe272fLTor173g" name="getCliente">
+      <modelElement href="Vayvem.uml#_aTePMDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NtDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NtTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xi9NtjHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aaFNgDHUEe272fLTor173g"/>
+        <type xmi:id="_xi9NtzHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xi9NuDHUEe272fLTor173g" name="setCliente">
+      <modelElement href="Vayvem.uml#_aaF0kDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xi9NuTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xi9NujHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xi9NuzHUEe272fLTor173g" name="cliente">
+        <modelElement href="Vayvem.uml#_aaGboDHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xi9NvDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xi9NvTHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xivyMDHUEe272fLTor173g" name="Cliente" associationsIn="_xirgwDHUEe272fLTor173g _xirgwTHUEe272fLTor173g" subclassedBy="_-6y78DHVEe272fLTor173g _LIavYDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xivyMTHUEe272fLTor173g" position="1418.0,-82.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xivyMjHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xivyMzHUEe272fLTor173g" name="id">
+      <modelElement href="Vayvem.uml#_abHvUDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyNDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyNTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyNjHUEe272fLTor173g" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyNzHUEe272fLTor173g" name="cpf">
+      <modelElement href="Vayvem.uml#_abHvUTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyODHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyOTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyOjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyOzHUEe272fLTor173g" name="nomeCompleto">
+      <modelElement href="Vayvem.uml#_abHvUjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyPDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyPTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyPjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyPzHUEe272fLTor173g" name="rua">
+      <modelElement href="Vayvem.uml#_abIWYDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyQDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyQTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyQjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyQzHUEe272fLTor173g" name="bairro">
+      <modelElement href="Vayvem.uml#_abIWYTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyRDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyRTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyRjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyRzHUEe272fLTor173g" name="cep">
+      <modelElement href="Vayvem.uml#_abIWYjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivySDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivySTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivySjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivySzHUEe272fLTor173g" name="cidade">
+      <modelElement href="Vayvem.uml#_abI9cDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyTDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyTTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyTjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyTzHUEe272fLTor173g" name="estado">
+      <modelElement href="Vayvem.uml#_abI9cTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyUDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyUTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyUjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyUzHUEe272fLTor173g" name="email">
+      <modelElement href="Vayvem.uml#_abJkgDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyVDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyVTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyVjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xivyVzHUEe272fLTor173g" name="numero">
+      <modelElement href="Vayvem.uml#_abJkgTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyWDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyWTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xivyWjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xivyWzHUEe272fLTor173g" name="toString">
+      <modelElement href="Vayvem.uml#_aTYvoDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xivyXDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xivyXTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xivyXjHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aTYvoTHUEe272fLTor173g"/>
+        <type xmi:id="_xivyXzHUEe272fLTor173g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xhaVcDHUEe272fLTor173g" name="ClienteDAO" associationsIn="_xhhDIDHUEe272fLTor173g _xhzXADHUEe272fLTor173g" associationsOut="_xhZuYDHUEe272fLTor173g" generalizations="_-6y78DHVEe272fLTor173g _ZFGssDHWEe272fLTor173g" subclassedBy="_KbGWYDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aShM8DHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xhaVcTHUEe272fLTor173g" position="1264.0,256.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xhaVcjHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xhaVczHUEe272fLTor173g" name="sql" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aayYIDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_xhaVdDHUEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aay_MDHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xhaVdTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhaVdjHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xhaVdzHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xhaVeDHUEe272fLTor173g" name="connection">
+      <modelElement href="Vayvem.uml#_aazmQDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTD3QDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTEeUDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTXZQDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xhaVejHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xhaVezHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xhaVfDHUEe272fLTor173g" name="Connection">
+        <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xhaVfTHUEe272fLTor173g" name="findByPk">
+      <modelElement href="Vayvem.uml#_aSk3UDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhaVfjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhaVfzHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xhaVgDHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aZxEcDHUEe272fLTor173g"/>
+        <type xmi:id="_xhaVgTHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhaVgjHUEe272fLTor173g" name="clienteId">
+        <modelElement href="Vayvem.uml#_aSk3UTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhaVgzHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhaVhDHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhaVhTHUEe272fLTor173g" name="findByPk2">
+      <modelElement href="Vayvem.uml#_aSmsgDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhaVhjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhaVhzHUEe272fLTor173g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_xhaViDHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aSmsgjHUEe272fLTor173g"/>
+        <type xmi:id="_xhaViTHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhaVijHUEe272fLTor173g" name="clienteId">
+        <modelElement href="Vayvem.uml#_aSmsgTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhaVizHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhaVjDHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhaVjTHUEe272fLTor173g" name="create">
+      <modelElement href="Vayvem.uml#_aZv2UDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhaVjjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhaVjzHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xhaVkDHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aZwdYDHUEe272fLTor173g"/>
+        <type xmi:id="_xhaVkTHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhaVkjHUEe272fLTor173g" name="cliente">
+        <modelElement href="Vayvem.uml#_aZv2UTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhaVkzHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhaVlDHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhaVlTHUEe272fLTor173g" name="ClienteDAO">
+      <modelElement href="Vayvem.uml#_aak8wDHUEe272fLTor173g"/>
+      <keywords xmi:id="_xhaVljHUEe272fLTor173g" keyword="create"/>
+      <visibility xmi:id="_xhaVlzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhaVmDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xhaVmTHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aalj0jHUEe272fLTor173g"/>
+        <type xmi:id="_xhaVmjHUEe272fLTor173g" name="ClienteDAO">
+          <modelElement href="Vayvem.uml#_aShM8DHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhaVmzHUEe272fLTor173g" name="connection">
+        <modelElement href="Vayvem.uml#_aak8wTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhaVnDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhaVnTHUEe272fLTor173g" name="Connection">
+          <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xh7S0DHUEe272fLTor173g" name="HospedagemDAO" associationsOut="_xhzXADHUEe272fLTor173g _xh0lIDHUEe272fLTor173g" generalizations="__RlrUDHVEe272fLTor173g _ZZvf8DHWEe272fLTor173g" subclassedBy="_L-A6oDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aS6OgDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xh7S0THUEe272fLTor173g" position="1762.0,300.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xh7S0jHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xh7S0zHUEe272fLTor173g" name="sql" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa4ewDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_xh7S1DHUEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa5F0DHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xh7S1THUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7S1jHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xh7S1zHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xh7S2DHUEe272fLTor173g" name="connection">
+      <modelElement href="Vayvem.uml#_aa5F0THUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTLMADHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTMaIDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTYnYDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xh7S2jHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xh7S2zHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xh7S3DHUEe272fLTor173g" name="Connection">
+        <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xh7S3THUEe272fLTor173g" name="clienteDao">
+      <modelElement href="Vayvem.uml#_aa5s4THUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTJW0DHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTJ94DHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTZ1gDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xh7S3zHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xh7S4DHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xh7S4THUEe272fLTor173g" name="ClienteDAO">
+        <modelElement href="Vayvem.uml#_aShM8DHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xh7S4jHUEe272fLTor173g" name="findAll">
+      <modelElement href="Vayvem.uml#_aS9R0DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xh7S4zHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7S5DHUEe272fLTor173g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_xh7S5THUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aS944DHUEe272fLTor173g"/>
+        <type xmi:id="_xh7S5jHUEe272fLTor173g" name="Hospedagem">
+          <modelElement href="Vayvem.uml#_aTk84DHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xh7S5zHUEe272fLTor173g" name="findByPk">
+      <modelElement href="Vayvem.uml#_aS_HADHUEe272fLTor173g"/>
+      <visibility xmi:id="_xh7S6DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7S6THUEe272fLTor173g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_xh7S6jHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aS_uEDHUEe272fLTor173g"/>
+        <type xmi:id="_xh7S6zHUEe272fLTor173g" name="Hospedagem">
+          <modelElement href="Vayvem.uml#_aTk84DHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xh7S7DHUEe272fLTor173g" name="hospedagemId">
+        <modelElement href="Vayvem.uml#_aS_HATHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7S7THUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7S7jHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xh7S7zHUEe272fLTor173g" name="delete">
+      <modelElement href="Vayvem.uml#_aTAVIDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xh7S8DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7S8THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xh7S8jHUEe272fLTor173g" name="hospedagemId">
+        <modelElement href="Vayvem.uml#_aTAVITHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7S8zHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7S9DHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xh7S9THUEe272fLTor173g" name="create">
+      <modelElement href="Vayvem.uml#_aZ6OYDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xh7S9jHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7S9zHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xh7S-DHUEe272fLTor173g" name="hospedagem">
+        <modelElement href="Vayvem.uml#_aZ61cDHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7S-THUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7S-jHUEe272fLTor173g" name="Hospedagem">
+          <modelElement href="Vayvem.uml#_aTk84DHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xh7S-zHUEe272fLTor173g" name="clienteId">
+        <modelElement href="Vayvem.uml#_aZ61cTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7S_DHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7S_THUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xh7S_jHUEe272fLTor173g" name="update">
+      <modelElement href="Vayvem.uml#_aZ7cgDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xh7S_zHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7TADHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xh7TATHUEe272fLTor173g" name="hospedagem">
+        <modelElement href="Vayvem.uml#_aZ7cgTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7TAjHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7TAzHUEe272fLTor173g" name="Hospedagem">
+          <modelElement href="Vayvem.uml#_aTk84DHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xh7TBDHUEe272fLTor173g" name="HospedagemDAO">
+      <modelElement href="Vayvem.uml#_aaonIDHUEe272fLTor173g"/>
+      <keywords xmi:id="_xh7TBTHUEe272fLTor173g" keyword="create"/>
+      <visibility xmi:id="_xh7TBjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xh7TBzHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xh7TCDHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aapOMTHUEe272fLTor173g"/>
+        <type xmi:id="_xh7TCTHUEe272fLTor173g" name="HospedagemDAO">
+          <modelElement href="Vayvem.uml#_aS6OgDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xh7TCjHUEe272fLTor173g" name="connection">
+        <modelElement href="Vayvem.uml#_aaonITHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7TCzHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7TDDHUEe272fLTor173g" name="Connection">
+          <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xh7TDTHUEe272fLTor173g" name="clienteDao">
+        <modelElement href="Vayvem.uml#_aaonIjHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xh7TDjHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xh7TDzHUEe272fLTor173g" name="ClienteDAO">
+          <modelElement href="Vayvem.uml#_aShM8DHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xhoX4DHUEe272fLTor173g" name="DestinoDAO" associationsOut="_xhhDIDHUEe272fLTor173g _xhiRQDHUEe272fLTor173g" generalizations="__gGBYDHVEe272fLTor173g _Yc_j0DHWEe272fLTor173g" subclassedBy="_MVveIDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aSuBQDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xhoX4THUEe272fLTor173g" position="599.0,280.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xhoX4jHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xhoX4zHUEe272fLTor173g" name="sql" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa00YDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_xhoX5DHUEe272fLTor173g" name="LegacyStyledElement">
+        <modelElement href="Vayvem.uml#_aa1bcDHUEe272fLTor173g"/>
+      </stereotypes>
+      <visibility xmi:id="_xhoX5THUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoX5jHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xhoX5zHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xhoX6DHUEe272fLTor173g" name="connection">
+      <modelElement href="Vayvem.uml#_aa2CgDHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTIIsDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTIvwDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTbDoDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xhoX6jHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xhoX6zHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xhoX7DHUEe272fLTor173g" name="Connection">
+        <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xhoX7THUEe272fLTor173g" name="clienteDao">
+      <modelElement href="Vayvem.uml#_aa2pkTHUEe272fLTor173g"/>
+      <stereotypes xmi:id="_RTFscDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTG6kDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_RTbqsDHXEe272fLTor173g" name="LegacyStyledElement"/>
+      <visibility xmi:id="_xhoX7zHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xhoX8DHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xhoX8THUEe272fLTor173g" name="ClienteDAO">
+        <modelElement href="Vayvem.uml#_aShM8DHUEe272fLTor173g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xhoX8jHUEe272fLTor173g" name="findAll">
+      <modelElement href="Vayvem.uml#_aSxEkDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhoX8zHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoX9DHUEe272fLTor173g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_xhoX9THUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aSxroDHUEe272fLTor173g"/>
+        <type xmi:id="_xhoX9jHUEe272fLTor173g" name="Destino">
+          <modelElement href="Vayvem.uml#_aTcaADHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_xhoX9zHUEe272fLTor173g" name="findByPk">
+      <modelElement href="Vayvem.uml#_aSySsDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhoX-DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoX-THUEe272fLTor173g" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_xhoX-jHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aSzg0DHUEe272fLTor173g"/>
+        <type xmi:id="_xhoX-zHUEe272fLTor173g" name="Destino">
+          <modelElement href="Vayvem.uml#_aTcaADHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhoX_DHUEe272fLTor173g" name="destinoId">
+        <modelElement href="Vayvem.uml#_aSy5wDHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoX_THUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoX_jHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhoX_zHUEe272fLTor173g" name="delete">
+      <modelElement href="Vayvem.uml#_aS0H4DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhoYADHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoYATHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhoYAjHUEe272fLTor173g" name="destinoId">
+        <modelElement href="Vayvem.uml#_aS0u8DHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoYAzHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoYBDHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhoYBTHUEe272fLTor173g" name="create">
+      <modelElement href="Vayvem.uml#_aZ1V4DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhoYBjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoYBzHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhoYCDHUEe272fLTor173g" name="destino">
+        <modelElement href="Vayvem.uml#_aZ188DHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoYCTHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoYCjHUEe272fLTor173g" name="Destino">
+          <modelElement href="Vayvem.uml#_aTcaADHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xhoYCzHUEe272fLTor173g" name="clienteId">
+        <modelElement href="Vayvem.uml#_aZ188THUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoYDDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoYDTHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhoYDjHUEe272fLTor173g" name="update">
+      <modelElement href="Vayvem.uml#_aZ2kADHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhoYDzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoYEDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhoYETHUEe272fLTor173g" name="destino">
+        <modelElement href="Vayvem.uml#_aZ2kATHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoYEjHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoYEzHUEe272fLTor173g" name="Destino">
+          <modelElement href="Vayvem.uml#_aTcaADHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhoYFDHUEe272fLTor173g" name="DestinoDAO">
+      <modelElement href="Vayvem.uml#_aamx8DHUEe272fLTor173g"/>
+      <keywords xmi:id="_xhoYFTHUEe272fLTor173g" keyword="create"/>
+      <visibility xmi:id="_xhoYFjHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhoYFzHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xhoYGDHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aanZATHUEe272fLTor173g"/>
+        <type xmi:id="_xhoYGTHUEe272fLTor173g" name="DestinoDAO">
+          <modelElement href="Vayvem.uml#_aSuBQDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhoYGjHUEe272fLTor173g" name="connection">
+        <modelElement href="Vayvem.uml#_aamx8THUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoYGzHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoYHDHUEe272fLTor173g" name="Connection">
+          <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xhoYHTHUEe272fLTor173g" name="clienteDao">
+        <modelElement href="Vayvem.uml#_aamx8jHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhoYHjHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhoYHzHUEe272fLTor173g" name="ClienteDAO">
+          <modelElement href="Vayvem.uml#_aShM8DHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xiZz8DHUEe272fLTor173g" name="DestinoDtoMetadata">
+    <modelElement href="Vayvem.uml#_aTNwgDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xiZz8THUEe272fLTor173g" position="708.0,546.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xiZz8jHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xiZz8zHUEe272fLTor173g" defaultValue="&quot;destino&quot;" name="tableName" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abAakDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZz9DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZz9THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZz9jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZz9zHUEe272fLTor173g" defaultValue="&quot;id&quot;" name="id" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abBBoDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZz-DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZz-THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZz-jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZz-zHUEe272fLTor173g" defaultValue="&quot;nome&quot;" name="nome" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abBosDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZz_DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZz_THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZz_jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZz_zHUEe272fLTor173g" defaultValue="&quot;data_ida&quot;" name="dataIda" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abBosjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZ0ADHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZ0ATHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZ0AjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZ0AzHUEe272fLTor173g" defaultValue="&quot;data_volta&quot;" name="dataVolta" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abCPwTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZ0BDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZ0BTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZ0BjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZ0BzHUEe272fLTor173g" defaultValue="&quot;valor_integral&quot;" name="valorIntegral" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abC20DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZ0CDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZ0CTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZ0CjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZ0CzHUEe272fLTor173g" defaultValue="&quot;fk_cliente_id&quot;" name="cliente" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abC20jHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZ0DDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZ0DTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZ0DjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZ0DzHUEe272fLTor173g" defaultValue="&quot;cidade&quot;" name="cidade" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abDd4THUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZ0EDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZ0ETHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZ0EjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiZ0EzHUEe272fLTor173g" defaultValue="&quot;estado&quot;" name="estado" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abEE8DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiZ0FDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiZ0FTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiZ0FjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xhOIMDHUEe272fLTor173g" name="Main" generalizations="_KbGWYDHWEe272fLTor173g _LIavYDHWEe272fLTor173g _LnFoYDHWEe272fLTor173g _L-A6oDHWEe272fLTor173g _MVveIDHWEe272fLTor173g _MrS3YDHWEe272fLTor173g _X0n8QDHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aR7XEDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xhOvQDHUEe272fLTor173g" position="1144.0,837.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xhOvQTHUEe272fLTor173g" label="+"/>
+    <operations xmi:id="_xhOvQjHUEe272fLTor173g" name="main" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aSRVUDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvQzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvRDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhOvRTHUEe272fLTor173g" name="args">
+        <modelElement href="Vayvem.uml#_aSR8YDHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvRjHUEe272fLTor173g" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_xhOvRzHUEe272fLTor173g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvSDHUEe272fLTor173g" name="consultarCliente" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aaT3ADHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvSTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvSjHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhOvSzHUEe272fLTor173g" name="clientes">
+        <modelElement href="Vayvem.uml#_aaVFIDHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvTDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvTTHUEe272fLTor173g" name="List">
+          <modelElement href="Vayvem.uml#_aZPgADHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvTjHUEe272fLTor173g" name="consultarHospedagem" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aaZWkDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvTzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvUDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhOvUTHUEe272fLTor173g" name="hospedagems">
+        <modelElement href="Vayvem.uml#_aaZWkTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvUjHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvUzHUEe272fLTor173g" name="List">
+          <modelElement href="Vayvem.uml#_aZPgADHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvVDHUEe272fLTor173g" name="insiraHospedagemCliente" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aaby0DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvVTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvVjHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhOvVzHUEe272fLTor173g" name="scanner">
+        <modelElement href="Vayvem.uml#_aaby0THUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvWDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvWTHUEe272fLTor173g" name="Scanner">
+          <modelElement href="Vayvem.uml#_aZeJgTHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xhOvWjHUEe272fLTor173g" name="hospedagem">
+        <modelElement href="Vayvem.uml#_aaby0jHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvWzHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvXDHUEe272fLTor173g" name="Hospedagem">
+          <modelElement href="Vayvem.uml#_aTk84DHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xhOvXTHUEe272fLTor173g" name="cliente">
+        <modelElement href="Vayvem.uml#_aaby0zHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvXjHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvXzHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvYDHUEe272fLTor173g" name="consultarDestino" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aadA8DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvYTHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvYjHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhOvYzHUEe272fLTor173g" name="destinos">
+        <modelElement href="Vayvem.uml#_aadA8THUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvZDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvZTHUEe272fLTor173g" name="List">
+          <modelElement href="Vayvem.uml#_aZPgADHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvZjHUEe272fLTor173g" name="insiraDestinoCliente" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aae2IDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvZzHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvaDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xhOvaTHUEe272fLTor173g" name="scanner">
+        <modelElement href="Vayvem.uml#_aae2ITHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvajHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvazHUEe272fLTor173g" name="Scanner">
+          <modelElement href="Vayvem.uml#_aZeJgTHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xhOvbDHUEe272fLTor173g" name="destino">
+        <modelElement href="Vayvem.uml#_aafdMDHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvbTHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvbjHUEe272fLTor173g" name="Destino">
+          <modelElement href="Vayvem.uml#_aTcaADHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xhOvbzHUEe272fLTor173g" name="cliente">
+        <modelElement href="Vayvem.uml#_aafdMTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvcDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvcTHUEe272fLTor173g" name="Cliente">
+          <modelElement href="Vayvem.uml#_aTVsUDHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvcjHUEe272fLTor173g" name="readIdOfClient" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aagEQDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvczHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvdDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xhOvdTHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aagrUDHUEe272fLTor173g"/>
+        <type xmi:id="_xhOvdjHUEe272fLTor173g" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhOvdzHUEe272fLTor173g" name="scanner">
+        <modelElement href="Vayvem.uml#_aagEQTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOveDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOveTHUEe272fLTor173g" name="Scanner">
+          <modelElement href="Vayvem.uml#_aZeJgTHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xhOvejHUEe272fLTor173g" name="menu" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aahSYDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xhOvezHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xhOvfDHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xhOvfTHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aahSYjHUEe272fLTor173g"/>
+        <type xmi:id="_xhOvfjHUEe272fLTor173g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xhOvfzHUEe272fLTor173g" name="scanner">
+        <modelElement href="Vayvem.uml#_aahSYTHUEe272fLTor173g"/>
+        <cardinality xmi:id="_xhOvgDHUEe272fLTor173g" label="1" max="1" min="1"/>
+        <type xmi:id="_xhOvgTHUEe272fLTor173g" name="Scanner">
+          <modelElement href="Vayvem.uml#_aZeJgTHUEe272fLTor173g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xiGR8DHUEe272fLTor173g" name="Database" subclassedBy="_X0n8QDHWEe272fLTor173g _Yc_j0DHWEe272fLTor173g _ZFGssDHWEe272fLTor173g _ZZvf8DHWEe272fLTor173g">
+    <modelElement href="Vayvem.uml#_aTF0sDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xiGR8THUEe272fLTor173g" position="151.0,1113.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xiGR8jHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xiGR8zHUEe272fLTor173g" defaultValue="&quot;root&quot;" name="username" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa67ADHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiGR9DHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xiGR9THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiGR9jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiGR9zHUEe272fLTor173g" defaultValue="&quot;19RubI97&quot;" name="password" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa7iETHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiGR-DHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xiGR-THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiGR-jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiGR-zHUEe272fLTor173g" defaultValue="&quot;jdbc:mysql://localhost:3306/Vayvem&quot;" name="databaese_url" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa8JIDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiGR_DHUEe272fLTor173g" label="-"/>
+      <cardinality xmi:id="_xiGR_THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiGR_jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xiGR_zHUEe272fLTor173g" name="createConnectionToMySql" staticOperation="true">
+      <modelElement href="Vayvem.uml#_aTHC0DHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiGSADHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiGSATHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xiGSAjHUEe272fLTor173g">
+        <modelElement href="Vayvem.uml#_aap1QDHUEe272fLTor173g"/>
+        <type xmi:id="_xiGSAzHUEe272fLTor173g" name="Connection">
+          <modelElement href="Vayvem.uml#_aZmFUDHUEe272fLTor173g"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xiPb4DHUEe272fLTor173g" name="ClienteDtoMetadata">
+    <modelElement href="Vayvem.uml#_aTJfEDHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xiPb4THUEe272fLTor173g" position="1295.0,470.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xiPb4jHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xiPb4zHUEe272fLTor173g" defaultValue="&quot;cliente&quot;" name="tableName" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa8JIjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb5DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb5THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb5jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb5zHUEe272fLTor173g" defaultValue="&quot;id&quot;" name="id" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa8wMTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb6DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb6THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb6jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb6zHUEe272fLTor173g" defaultValue="&quot;cpf&quot;" name="cpf" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa8wMzHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb7DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb7THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb7jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb7zHUEe272fLTor173g" defaultValue="&quot;nome_completo&quot;" name="nomeCompleto" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa9XQTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb8DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb8THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb8jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb8zHUEe272fLTor173g" defaultValue="&quot;rua&quot;" name="rua" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa9XQzHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb9DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb9THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb9jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb9zHUEe272fLTor173g" defaultValue="&quot;bairro&quot;" name="bairro" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa9-UTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb-DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb-THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb-jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb-zHUEe272fLTor173g" defaultValue="&quot;cep&quot;" name="cep" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa9-UzHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPb_DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPb_THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPb_jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPb_zHUEe272fLTor173g" defaultValue="&quot;cidade&quot;" name="cidade" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa-lYTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPcADHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPcATHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPcAjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPcAzHUEe272fLTor173g" defaultValue="&quot;estado&quot;" name="estado" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa_McDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPcBDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPcBTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPcBjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPcBzHUEe272fLTor173g" defaultValue="&quot;email&quot;" name="email" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa_McjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPcCDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPcCTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPcCjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xiPcCzHUEe272fLTor173g" defaultValue="&quot;numero&quot;" name="numero" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_aa_zgTHUEe272fLTor173g"/>
+      <visibility xmi:id="_xiPcDDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xiPcDTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xiPcDjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xijk8DHUEe272fLTor173g" name="HospedagemDtoMetadata">
+    <modelElement href="Vayvem.uml#_aTRa4DHUEe272fLTor173g"/>
+    <visualProperties xmi:id="_xijk8THUEe272fLTor173g" position="1989.0,574.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xijk8jHUEe272fLTor173g" label="+"/>
+    <attributes xmi:id="_xijk8zHUEe272fLTor173g" defaultValue="&quot;hospedagem&quot;" name="tableName" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abEE8jHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijk9DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijk9THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijk9jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijk9zHUEe272fLTor173g" defaultValue="&quot;id&quot;" name="id" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abEsATHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijk-DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijk-THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijk-jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijk-zHUEe272fLTor173g" defaultValue="&quot;nome_hotel&quot;" name="nomeHotel" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abEsAzHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijk_DHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijk_THUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijk_jHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijk_zHUEe272fLTor173g" defaultValue="&quot;endereco&quot;" name="endereco" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abFTETHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlADHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlATHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlAjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijlAzHUEe272fLTor173g" defaultValue="&quot;estado&quot;" name="estado" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abFTEzHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlBDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlBTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlBjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijlBzHUEe272fLTor173g" defaultValue="&quot;valor_integral&quot;" name="valorIntegral" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abF6IDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlCDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlCTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlCjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijlCzHUEe272fLTor173g" defaultValue="&quot;check_in&quot;" name="checkIn" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abF6IjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlDDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlDTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlDjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijlDzHUEe272fLTor173g" defaultValue="&quot;check_out&quot;" name="checkOut" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abGhMDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlEDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlETHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlEjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijlEzHUEe272fLTor173g" defaultValue="&quot;numero_hotel&quot;" name="numeroHotel" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abGhMjHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlFDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlFTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlFjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_xijlFzHUEe272fLTor173g" defaultValue="&quot;fk_cliente_id&quot;" name="cliente" staticAttribute="true">
+      <modelElement href="Vayvem.uml#_abHIQDHUEe272fLTor173g"/>
+      <visibility xmi:id="_xijlGDHUEe272fLTor173g" label="+"/>
+      <cardinality xmi:id="_xijlGTHUEe272fLTor173g" label="1" max="1" min="1"/>
+      <type xmi:id="_xijlGjHUEe272fLTor173g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
